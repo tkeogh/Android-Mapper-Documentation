@@ -1,0 +1,105 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsfonts}
+\usepackage{geometry}
+
+\begin{document}
+
+\begin{titlepage}
+\center
+\hrule
+\vspace{0.3cm}
+
+\huge
+\textbf{  Adapting Access Aber to Android making use of native features.}
+\vspace{0.3cm}
+\hrule
+\vspace{0.6cm}
+\large
+
+
+\begin{minipage}{0.4\textwidth}
+  \textit{Supervisor:\\}
+  Myra Scott Wilson - mxw
+\end{minipage}
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushright}
+ \textit{Author:\\}
+ Thomas Keogh - thk11
+ \end{flushright}
+\end{minipage}
+
+
+
+\vspace{1cm}
+
+
+\vspace{0.1cm}
+
+Computer Science - G400
+\\
+\vspace{0.1cm}
+\today \\
+\vspace{0.1cm}
+1.3 - Release
+
+
+\end{titlepage}
+
+
+
+\newgeometry{left=1in,right=1in}
+
+\section{Project Description}
+\vspace{0.2cm}
+\hrule
+\vspace{0.4cm}
+
+The aim of this project is to produce a native version of the currently existing Access Aber web application. Access Aber is an online service which aims to help users navigate the Aberystwyth University Campus with pre defined routes. The Application uses the Leaflet JavaScript library for its interactive maps and route plotting. 
+
+As it stands the application can run on both iOS and Android however the two platforms can offer greater benefits when an application is built for the platform solely. By doing this I aim to display the benefits that a native android application could give the university and decide whether the benefits are worth the cost of creating the full native application. The application should provide the facilities for a user to navigate campus, especially those with disabilities. With the campus being on a hillside navigation is not easy, a phone application which can help users find their way to a destination using a path they are capable of is extremely helpful. It could also potentially be used for open days to help prospective students navigate around campus and view relevant buildings. Another possible course to consider is the input of paths, as it stands within the web application the paths have to be plotted manually, this could be done in a much simpler way by having a person actually walk the possible path while logging GPS points co-ordinates using the GPS module within the phone.  
+
+The end goal for this project is an application that provides some of the discussed features while using native android functionality which users would be incapable of using with a web application. This is the only way to prove a native port is worth the time and cost.  It is possible that the native features do not warrant the development however this will be discussed at the end of the project. The full discussion will analyse what has been achieved and how much of it is either down to native features or improved by the platforms native features. 
+
+\vspace{0.4cm}
+\section{Proposed Tasks}
+\vspace{0.2cm}
+\hrule
+\vspace{0.4cm}
+
+\subsection{Android Research}
+
+I have a fairly solid understanding of how android applications are built so no real research will have to be done on starting the project. However the provided API will be used frequently for feature research. While i have a rough idea already this does not mean anything is set in stone. The more features found the stronger the case for the android application.
+\subsection{Sensor Research}
+One of the initial task will be completing research that extends my current knowledge of platform specific features. This will mainly revolve around the motion sensors on the android device used, this should help measure the inclines of slops for decision making within other functionalities. The GPS within the phone could also be used for tracking movement in either the 'route builder'~\cite{chang2013} side of the application or in the guidance elements.
+\subsection{Development Approach Decisions}
+Within this project i would be interested in an agile approach however due to my lack of experience with it and having a good working knowledge of planned approach its a tough decision to be made. Due to the importance of the project it may be best to stick to the proven method despite its downfalls. 
+\subsection{Documentation}
+The project will come with all of its relevant documentation, this includes all of the design documents along with discussion of the project and its outcome.
+\subsection{Android Development}
+Android development will be the application itself including all chosen functionalities. This is likely to be the main part of the work within the project with surrounding pieces either relying on this or supporting it. 
+\vspace{0.4cm}
+\section{Project Deliverables}
+\vspace{0.2cm}
+\hrule
+\vspace{0.4cm}
+\subsection{Requirements Documentation}
+Requirements documentation will be an analysis of what we actually need from the project and what we want the end project to look like. This will be the first piece of work to be completed. 
+\subsection{Design and Testing Documents}
+Design documentation will include UML diagrams of the projected piece of software including Use Case and Class Diagrams. This will be completed before most development work has begun. Testing however will be continually developed and be used through all staged of development, this should help with stable releases and a more robust end product as all testing is not rushed at the end. 
+\subsection{Feature Research and Tech Spikes}
+Feature Research will occur before the development process has begun and will delve into the android API\cite{goog2015} to find useful features as well as researching ones we already know we need. Tech Spikes will happen continually throughout the project development although a lot more likely to happen mostly during the start. Tech Spikes should help us decide what is actually useful and what just sounds useful. 
+\subsection{Android Application}
+This is one of the main deliverables, this is the software that makes up the project. The functioning application will help demonstrate the findings of the research in the way the full application would. This will start after initial design and will likely still be being perfected until the end of the project time line. 
+\subsection{Final Report}
+The final report will discuss all findings, decisions and analysis of the end product. This\nocite{shyi} will be the final piece of work to be produced  . \nocite{shala2011}
+\newpage
+\bibliographystyle{plain-annote}
+
+\bibliography{tomok94}
+
+
+
+
+\end{document}

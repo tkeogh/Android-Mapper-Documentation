@@ -1,0 +1,40 @@
+\begin{thebibliography}{1}
+
+\bibitem{goog2015}
+{Google} , {A}ndroid {M}otion {S}ensor {API}.
+\newblock
+  http://developer.android.com/guide/topics/sensors/sensors\_motion.html.
+\newblock Accessed: 03-02-2015.
+ \begin{quotation}\noindent The Android Motion Sensor Developer API, controls
+  for various motion sensors including gyroscope within the phone. Likely to be
+  of help with tracking movement and possibly measuring slopes with the phone
+  itself. Integral Research to be completed here. \end{quotation}
+\bibitem{chang2013}
+Ing-Chau Chang, Hung-Ta Tai, Dung-Lin Hsieh, Feng-Han Yeh, and Siao-Hui Chang.
+\newblock {Design and Implementation of the Travelling Time- and
+  Energy-Efficient Android GPS Navigation App with the VANET-Based A* Route
+  Planning Algorithm}.
+\newblock In {\em Biometrics and Security Technologies (ISBAST), 2013
+  International Symposium on}, pages 85--92. IEEE, July 2013.
+ \begin{quotation}\noindent Paper on the use of a modified A* algorithm for
+  route planning on an android device. In this case its use is more complicated
+  than the uses this proposed project would need but could still contain
+  relevant information. \end{quotation}
+\bibitem{shala2011}
+Ubejd Shala and Angel Rodriguez.
+\newblock Indoor positioning using sensor-fusion in android devices.
+\newblock 2011.
+ \begin{quotation}\noindent Positioning within buildings work, thesis that
+  could be helpful. Gives good background reading on possible sensors to be
+  used and why. \end{quotation}
+
+\bibitem{shyi}
+Wu~Shyi-Shiou and Wu~Hsin-Yi.
+\newblock {The Design of an Intelligent Pedometer Using Android}.
+\newblock In {\em Innovations in Bio-inspired Computing and Applications
+  (IBICA), 2011 Second International Conference on}, pages 313--315. IEEE,
+  December 2011.
+ \begin{quotation}\noindent System built that could help track distance without
+  the need for GPS signal in area, good background reading on possible avenues.
+  \end{quotation}
+\end{thebibliography}

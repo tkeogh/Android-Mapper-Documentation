@@ -1,0 +1,68 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{amsfonts}
+\usepackage{geometry}
+
+\begin{document}
+
+\begin{center}
+
+
+\Huge Design Decisions\\
+\Large thk11\\
+\today
+
+
+
+
+\end{center}
+\noindent
+\large Outline\\
+\normalsize
+\hrule
+\vspace{0.2cm}
+\noindent
+This document covers the initial design decisions i feel i have either already made, or will have to make within the short term future. Undertaking this task should help clarify the process i have to undertake to complete the project on time. With the area of my dissertation being so broad a decision in itself is what to undertake, there are so many issues to be solved its impossible to solve them all. \\
+
+\noindent
+\large Project Area and Features\\
+\hrule
+\vspace{0.2cm}
+\noindent
+Initially i thought the area for my project would be to adapt the Access Aber web application natively to Android and in turn remove the fixed routes and implement an algorithm to find routes based on user input. In retrospect that is a very large task, after seeing that a project on its own is based just on researching and designing an algorithm to do that i feel the task is too big for the time given. A very important step that has been taken recently is actually talking to the area of the uni that wanted the initial web application made, and how they now feel about what has been achieved.\\
+
+\noindent
+While they are happy ground has been made on the application it is far from perfect, an initial small fix is how routes are selected, at the moment its just a long list of place to place where really you should be able to just pick where you are and where you want to go. It is also possible to have the application tell you where you are by using the built in sensors, this fits in with the project outline and is something i would like to include.  \\
+
+\noindent
+However they are also not too pleased with how the routes can be seen to have a lack of information. This is an area i feel i can really improve on for them. My current idea is to have two separate applications, although possible to put into one i will have to have discussions with my project tutor to decide. The first application will be to map routes, users will be able to move around campus and add information about the route. This includes information gathered from sensors like the incline of a slope while the user is able to add information about areas like steps. I would then like to perform analysis on the route using the information provided and give a related difficulty. This is something the 'clients' as such wanted, a system to fully rate routes which is obvious to the user, by doing this a user can select a route which is most suited to their physical abilities. After route analysis the route would be uploaded to a central database which would store all the walks and related information. \\
+
+\noindent
+The second application would be a guide as such to anyone who needed it, those who rely on disabled access or those who are new to the campus for whatever reason. It has been said in meetings that the disabled access on campus can be so poor that people find some areas completely impossible to get to and as a result feel uncomfortable on campus. This is a big issue, from information available it seems like everywhere is accessible except for some odd places. However access is poorly signposted and as such we need to strive to display it on the application. There are several ways i want to do this, first of all several views for the application, the user can select what they want visible and will show the user where they are making it easy for them to progress around the route, similar to a Sat Nav. By doing this we make it easy for users to see any logged disabled access or facilities like disabled toilets. The second way is when a user is following a logged route, by using something like a great circle algorithm we can see exactly what disabled facilities are on a route thus giving the user a strong idea of what is on their way.\\
+
+\noindent 
+There are also a couple of other features id like to include, mainly a part of the application that will alert someone that a user needs help or allow the user to call someone. By doing this we provide an easy way for someone to signal for help on what can be a confusing campus at the best of times. As this seems a fairly simple feature at the moment i can see no reason to not include it. With us using a phone we can get GPS co ordinates and give the receiving help a very accurate idea of where the user is. Another possible feature i have been thinking about is the addition of localisation, on its own this is easy we just use the phones sensors. However localising a person and then plotting a route from there is hard, my current idea is to localise the person, draw a route to the closest 'Key Point' as i have come to call them and those key points will have pre programmed paths to most places on campus. This is a simplistic way to fix the issue of fixed routes but with the time given may be a viable strategy.\\
+
+\noindent
+\large User Interface\\
+\hrule
+\vspace{0.2cm}
+\noindent
+One problem users had with the current application is they did not like being dropped straight into the map, when you're unfamiliar with an application it is not an ideal situation to have a user panicking over how to use it straight away. I plan to combat this with simple but effective UI design and layout. My initial plan is to take the user on start to a grid like screen giving them their options, i plan for this to include a places function as well as a route finder and functionality like the call for help. By doing this the user is clearly shown their options and is led into the application rather than being dropped into it which seemed to be how they current felt. 
+\newpage
+\noindent
+\large Route Plotting\\
+\hrule
+\vspace{0.2cm}
+\noindent
+This is a key area within the application and something i have already talked about a fair bit. The main decision here is exactly how it can be done and if its worth attempting the more ambitious approaches. The current and easy approach is fixed routes, you tell the application where you're starting, if it even has it in its system, then where you want to go. The second is adaptive routes, ones that change based on the current situation or data available. However i think a this point that is something that i will struggle to achieve and at best i am going to get 'Semi Adaptive'. My main reason for this is just how complex campus is, say if we wanted to avoid stairs we would have to find the shortest route using either slopes  and lifts while also helping the person navigate through buildings which adds even further complexity. The only way i can think of suitably combating this is to have several key points around campus which all have routes between enough of them to make them reachable by anyone. By limiting our routes but guaranteeing they are there and traversable we guarantee functionality to our disabled users. Once these routes are there we just need to get the user to the start of it, or the start of another route that leads to it. By doing this we have a sort of mesh we just need to reach an initial 'node' and the rest is pre programmed from there.\\
+
+\noindent
+Another issue we need to bare in mind is that of possibly allowing for routes to accessibility features like disabled bathrooms. While the information is readily available, the current access aber web application has it, is this something that will soak up more time than its worth. Knowing the location of the user and the bathroom for example is not hard, one is fixed and one is easy to retrieve. However  the only feature i feel i could complete with the rest of the project is just the quickest route, this could include stairs or traversal which really is not possible when its actually in front of you even for more able bodied users. I feel a feature this lacking in depth is better omitted and left until a time that it can be completed in a meaningful and beneficial way. \\
+
+\noindent
+A final issue which has crossed my mind while walking around campus is what happens if certain 
+
+
+\end{document}

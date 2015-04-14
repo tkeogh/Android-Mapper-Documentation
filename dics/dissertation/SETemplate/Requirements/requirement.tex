@@ -1,0 +1,50 @@
+
+\begin{titlepage}
+\center
+\hrule
+\vspace{0.3cm}
+
+\huge
+\textbf{  Requirements Specification.}
+\vspace{0.3cm}
+\hrule
+\vspace{0.6cm}
+\large
+
+
+ Thomas Keogh - thk11
+ \\
+ \vspace{0.3cm}
+
+ thk11@aber.ac.uk
+
+
+
+
+\vspace{1cm}
+
+
+\vspace{0.1cm}
+
+Computer Science - G400
+\\
+\vspace{0.1cm}
+\today \\
+\vspace{0.1cm}
+1.3 - Release
+
+
+\end{titlepage}
+
+\section{Functionality}
+
+The major aim for this project is to provide an android alternative to the already existing Access Aber web application. Currently the project exists solely as a web application which can be run on both iOS and Android through the use of a web browser. However the project is limited due to the time it was developed in and it is my aim to show that developing the application native to one environment can provide benefits which make the time and effort worth it. The idea is to not only port over the existing application but to improve upon it in ways that are seen fit. I feel that with the power given to a programmer within not just android, but mobile devices in general, the application can be made to be not only effective but intuitive and an asset to those who visit campus. The application will consist of several areas that will benefit the user and will heavily rely on the Google Maps Android API. 
+\subsection{Route Finding}
+One of the main features to be included is that of a route finding system around campus. This differs from the web application due to the system actually finding a route, as it stands the application has around 200 stored routes which a user can select from. However they are shown as a list and require the user to spend a large time searching through with no guarantee of there route actually being stored.
+
+The android application will be developed in a different way. The user must be able to find there way around campus without having to search through 200 routes. The plan to combat this is to first have a much simpler way of route selection, ideally this will be two drop down boxes where a user selects where they are and where they want to go. This means that if we cover 20 locations, we just need 20 options instead of representing it as over 400 hard coded routes which is what would be needed in the current set up. 
+
+The second plan to combat the current issue is to remove most hard coded routes. All that ideally has to be implemented is for each building to connect to at least one other. If this is implemented correctly we can instead search for a Route rather than store them. This saves the user time and means that the application should be easily extendible. 
+One issue which arose in a meeting with the section of the University which initially set up the project was that while routes were shown not much else was. No information regarding the route and no indication of the difficulty of it, both of these would be of a lot of use especially to disabled users of the application. It is already known that colour coded routes should be possible within the application, combining this with a small window which shows information such as distance,elevation and steps on the route should fix this problem which has been highlighted. 
+
+\end{document}
