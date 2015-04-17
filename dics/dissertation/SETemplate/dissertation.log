@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  17 APR 2015 18:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  17 APR 2015 23:54
 entering extended mode
 **dissertation.tex
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.tex
@@ -326,17 +326,34 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 [1
 
 
-] [2] [3] [4] [5] [6]) [7]
+] [2] [3] [4] [5] [6] [7]
+<Chapter1/process.png, id=51, 2409.0pt x 1382.16376pt>
+File: Chapter1/process.png Graphic file (type png)
+
+<use Chapter1/process.png>
+Package pdftex.def Info: Chapter1/process.png used on input line 81.
+(pdftex.def)             Requested size: 481.79147pt x 276.42786pt.
+)
+Overfull \hbox (55.00014pt too wide) in paragraph at lines 80--74
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--74
+
+ []
+
+[8 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter1/process.png>]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter2/chapter2.tex
 Chapter 2.
-) [8
+) [9
 
 
 
-] [9]
+] [10]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter3/chapter3.tex
 Chapter 3.
-) [10
+) [11
 
 
 
@@ -345,18 +362,18 @@ Chapter 3.
 Chapter 4.
 Missing character: There is no Õ in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
-) [11
+) [12
 
 
 
 ]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter5/chapter5.tex
 Chapter 5.
-) [12
+) [13
 
 
 
-] [13
+] [14
 
 
 ]
@@ -364,7 +381,7 @@ Chapter 5.
 Appendix A.
 Missing character: There is no Ð in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
-) [14
+) [15
 
 
 ]
@@ -373,11 +390,11 @@ Appendix B.
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 7.
 ("C:\Program Files\tex\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [15
+) [16
 
 
 
-] [16]) [17]
+] [17]) [18]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.bbl
 Underfull \hbox (badness 1661) in paragraph at lines 22--24
 []\OT1/ptm/m/n/10.95 Apache Soft-ware Foun-da-tion, ``Apache Li-cense, Ver-sion
@@ -386,7 +403,7 @@ Underfull \hbox (badness 1661) in paragraph at lines 22--24
 
 ) 
 AED: lastpage setting LastPage
-[18
+[19
 
 
 ] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.aux
@@ -403,22 +420,22 @@ AED: lastpage setting LastPage
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Appendix2/appendix2.aux))
  ) 
 Here is how much of TeX's memory you used:
- 2920 strings out of 493921
- 40843 string characters out of 3150087
- 95038 words of memory out of 3000000
- 6065 multiletter control sequences out of 15000+200000
+ 2926 strings out of 493921
+ 40957 string characters out of 3150087
+ 96038 words of memory out of 3000000
+ 6069 multiletter control sequences out of 15000+200000
  26005 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,10n,45p,1253b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,11n,45p,1253b,401s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/tex/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/tex/f
 onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/tex/fonts/type1/urw/
 courier/ucrr8a.pfb><C:/Program Files/tex/fonts/type1/urw/times/utmb8a.pfb><C:/P
 rogram Files/tex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/tex/fonts/t
 ype1/urw/times/utmr8a.pfb><C:/Program Files/tex/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on dissertation.pdf (25 pages, 132378 bytes).
+Output written on dissertation.pdf (26 pages, 236703 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
