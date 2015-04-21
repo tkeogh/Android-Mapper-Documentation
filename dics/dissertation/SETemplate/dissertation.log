@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  21 APR 2015 00:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  21 APR 2015 19:08
 entering extended mode
 **dissertation.tex
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.tex
@@ -386,10 +386,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--78
  []
 
 [15] [16 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/class.p
-ng>]) [17]
+ng>] [17] <Chapter2/flowo.png, id=91, 2714.14pt x 1907.125pt>
+File: Chapter2/flowo.png Graphic file (type png)
+
+<use Chapter2/flowo.png>
+Package pdftex.def Info: Chapter2/flowo.png used on input line 97.
+(pdftex.def)             Requested size: 651.40692pt x 457.71936pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+[18] [19 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/flowo.p
+ng>]) [20]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter3/chapter3.tex
 Chapter 3.
-) [18
+) [21
 
 
 
@@ -398,18 +410,18 @@ Chapter 3.
 Chapter 4.
 Missing character: There is no Õ in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
-) [19
+) [22
 
 
 
 ]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter5/chapter5.tex
 Chapter 5.
-) [20
+) [23
 
 
 
-] [21
+] [24
 
 
 ]
@@ -417,7 +429,7 @@ Chapter 5.
 Appendix A.
 Missing character: There is no Ð in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
-) [22
+) [25
 
 
 ]
@@ -426,11 +438,11 @@ Appendix B.
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 7.
 ("C:\Program Files\tex\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [23
+) [26
 
 
 
-] [24]) [25]
+] [27]) [28]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.bbl
 Underfull \hbox (badness 1661) in paragraph at lines 22--24
 []\OT1/ptm/m/n/10.95 Apache Soft-ware Foun-da-tion, ``Apache Li-cense, Ver-sion
@@ -439,7 +451,7 @@ Underfull \hbox (badness 1661) in paragraph at lines 22--24
 
 ) 
 AED: lastpage setting LastPage
-[26
+[29
 
 
 ] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.aux
@@ -459,22 +471,23 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 3047 strings out of 493921
- 42563 string characters out of 3150087
- 97844 words of memory out of 3000000
- 6181 multiletter control sequences out of 15000+200000
+ 3053 strings out of 493921
+ 42668 string characters out of 3150087
+ 97848 words of memory out of 3000000
+ 6186 multiletter control sequences out of 15000+200000
  26005 words of font info for 57 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,12n,45p,1279b,406s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/tex/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/tex/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/tex/fonts/type1/urw/
-courier/ucrr8a.pfb><C:/Program Files/tex/fonts/type1/urw/times/utmb8a.pfb><C:/P
-rogram Files/tex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/tex/fonts/t
-ype1/urw/times/utmr8a.pfb><C:/Program Files/tex/fonts/type1/urw/times/utmri8a.p
-fb>
-Output written on dissertation.pdf (33 pages, 453233 bytes).
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/tex/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Program Files/tex/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><C:/Program Files/tex/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program 
+Files/tex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/tex/fonts/type1/ur
+w/times/utmr8a.pfb><C:/Program Files/tex/fonts/type1/urw/times/utmr8a.pfb><C:/P
+rogram Files/tex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on dissertation.pdf (36 pages, 665163 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
+ 159 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
