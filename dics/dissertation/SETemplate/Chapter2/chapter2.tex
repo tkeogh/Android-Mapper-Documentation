@@ -101,7 +101,120 @@ Most information on the Help section of the application has been discussed previ
 \newpage
 \section{Sequence Diagrams}
 \section{Major Algorithms}
+Throughout the application there are thought to be a range of major algorithms, most of these relate to the finding of a route and then the visualizing of that route. Currently the algorithm is expected to be a version of BFS when required to go past a single connecting node. Past designs of these algorithms can be seen in Design Specification 3.3. Following are the currently expected algorithms to find routes, calculate distance and read in the file format.
 
-\section{User Interfaces}
+Initially route finding was shown in a single algorithm which is mostly correct, however due to the files containing all of the routes from a point the process has been changed. Initially a check will be made to see if there is a direct connection between start and end, if not then the BFS algorithms will be called. To start the algorithm should look as follows, this should check the original nodes connecting nodes. It logs the connecting nodes and if none are the destination they will be passed to the $deepFind$ which is the BFS. 
+
+It does this by using a boolean which is changed on a route being found. At the start of the BFS it should be noted that the start node, which will be stored in the activities variables, should be added to the visited list to avoid the nodes checking that. 
+\vspace{0.3cm}
+\hrule
+\vspace{0.1cm}
+\textbf{Find Initial Path}
+\vspace{0.1cm}
+\hrule
+\vspace{0.1cm}
+\begin{algorithmic}[1]
+\State$startRoutes$ = read($start$)
+\State $found$ = 0
+\State ArrayList $routeEnds$
+\For{$startRoutes$}
+	\State $routeEnds$ add $route -> end$
+	\If{$route -> end = end$}
+		\State Plot Single Route $route$
+		\State $found$ = 1
+	\EndIf
+\EndFor
+\If{$found == 0$}
+	\State deepFind $routeEnds$
+\EndIf
+\end{algorithmic}
+
+The deep find algorithm will initially be a BFS, a mostly correct version can be seen within the Design Specification however it does not account for being passed it starting nodes. The actual implementation should look close to the following pseudo code. 
+
+In this example you can see that the start node is set to visited and the nodes to be cycled through as those passed in as a variable. While the algorithm looks relatively simple set like this due to having to implement loading from the devices memory and other functions it is expected to take time to develop. Initial research has been conducted on loading. 
+
+A key line which helps in a later algorithm can be seen on line 11. This helps us move backwards from our destination as we can tell which connecting Node each Node was opened from, essentially plotting the path backwards by tracing the algorithms steps. 
+
+In future it is advised that more complex search algorithms are considered, including A*, to try and find a more efficient algorithm as on a large graph BFS could cause a small delay on older mobile devices. 
+\vspace{0.3cm}
+\hrule
+\vspace{0.1cm}
+\textbf{Find Route}
+\vspace{0.1cm}
+\hrule
+\vspace{0.1cm}
+\begin{algorithmic}[1]
+\State $start$ set Visited
+\State $Nodes$ = $passedInNodes$
+\While{!route found} this
+\For{$Nodes$} 
+\If {$Node$ has been visited}
+    \State do nothing
+\Else
+	\State set $Node$ visited
+    \State get $Node Routes$
+    \For{$Node Routes$}
+    \State Set Opened from $Node$
+    	\If {$Node Route End$ = Destination}
+    		\State set route found true
+    		\State call Plot Path ($visited$)
+    	\EndIf
+    	\If {$Node Route End$ not visited}
+    		\State Add to Nodes
+    	\EndIf
+    \EndFor
+\EndIf
+\EndFor
+\EndWhile
+\end{algorithmic}
+
+As can be seen in the above algorithm the visited nodes are passed in as a variable to the function that will plot the path, this way access is provided to the information about which Node was opened from where, allowing the function to work backwards though the Nodes.
+
+This is possible due to the fact that as soon as a single route is found that connects to the end no more are looked for, by doing this we guarantee only one path being painted. However this plan does not work if the search finds multiple paths, something that needs to be noted for future development. 
+
+Due to the nested loops the algorithm should always paint all required routes. 
+\vspace{0.3cm}
+\hrule
+\vspace{0.1cm}
+\textbf{Plot Path}
+\vspace{0.1cm}
+\hrule
+\vspace{0.1cm}
+\begin{algorithmic}[1]
+\State $Visited Nodes$ = $visited$
+\State$search$ = destination
+\For{$Visited Nodes$}
+	\For{$Visited Nodes$}
+	
+	\If{$search = Node Name$}
+		\State Plot Single Route 9$Node->name, Node->from$
+		\State $search = Node from$
+	\EndIf
+\EndFor
+\EndFor
+\end{algorithmic}
+Pseudo code for plotting a single route and then painting it can be found in the Design Specification sections 3.3 and 3.4. These have not changed through further design and are expected to suffice as they are. This also applies to the saving of a route file algorithm, found in section 3.5. However after research it has been noted that external memory is not always provided and as such further checks should be completed, following example code from both the Android API and other sources it is expected the following code should suffice. 
+\vspace{0.3cm}
+\hrule
+\vspace{0.1cm}
+\textbf{Plot Path}
+\vspace{0.1cm}
+\hrule
+\vspace{0.1cm}
+\begin{algorithmic}[1]
+\State $state$ = $getExternalState$
+\State $possWrite$ = false
+\If {$state$ = $readOnly$}
+	\State Cannot create files
+\ElsIf{$state$ = $readWrite$}
+	\State $possWrite$ = $True$
+\Else{}
+	\State Something is wrong, we only have one desired result which we have checked for
+	\EndIf
+	\State return $possWrite$
+
+\end{algorithmic}
+An algorithm which has been previously overlooked as it was initially assumed to be fairly simple is the file writer. After further research which resulted in the memory check algorithm it has been decided that its process should be noted due to the various ways it could be completed. Initial design should be as follows. 
+\section{Interfaces}
 
 \section{Other relevant sections}

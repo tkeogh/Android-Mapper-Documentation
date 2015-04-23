@@ -22,21 +22,21 @@
 \contentsline {subsection}{\numberline {2.3.1}Overall Justification}{17}
 \contentsline {section}{\numberline {2.4}Sequence Diagrams}{20}
 \contentsline {section}{\numberline {2.5}Major Algorithms}{20}
-\contentsline {section}{\numberline {2.6}User Interfaces}{20}
-\contentsline {section}{\numberline {2.7}Other relevant sections}{20}
-\contentsline {chapter}{\numberline {3}Implementation}{21}
-\contentsline {chapter}{\numberline {4}Testing}{22}
-\contentsline {section}{\numberline {4.1}Overall Approach to Testing}{22}
-\contentsline {section}{\numberline {4.2}Automated Testing}{22}
-\contentsline {subsection}{\numberline {4.2.1}Unit Tests}{22}
-\contentsline {subsection}{\numberline {4.2.2}User Interface Testing}{22}
-\contentsline {subsection}{\numberline {4.2.3}Stress Testing}{22}
-\contentsline {subsection}{\numberline {4.2.4}Other types of testing}{22}
-\contentsline {section}{\numberline {4.3}Integration Testing}{22}
-\contentsline {section}{\numberline {4.4}User Testing}{22}
-\contentsline {chapter}{\numberline {5}Evaluation}{23}
-\contentsline {chapter}{Appendices}{24}
-\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{25}
-\contentsline {chapter}{\numberline {B}Code samples}{26}
-\contentsline {section}{\numberline {2.1}Random Number Generator}{26}
-\contentsline {chapter}{Annotated Bibliography}{29}
+\contentsline {section}{\numberline {2.6}Interfaces}{22}
+\contentsline {section}{\numberline {2.7}Other relevant sections}{22}
+\contentsline {chapter}{\numberline {3}Implementation}{23}
+\contentsline {chapter}{\numberline {4}Testing}{24}
+\contentsline {section}{\numberline {4.1}Overall Approach to Testing}{24}
+\contentsline {section}{\numberline {4.2}Automated Testing}{24}
+\contentsline {subsection}{\numberline {4.2.1}Unit Tests}{24}
+\contentsline {subsection}{\numberline {4.2.2}User Interface Testing}{24}
+\contentsline {subsection}{\numberline {4.2.3}Stress Testing}{24}
+\contentsline {subsection}{\numberline {4.2.4}Other types of testing}{24}
+\contentsline {section}{\numberline {4.3}Integration Testing}{24}
+\contentsline {section}{\numberline {4.4}User Testing}{24}
+\contentsline {chapter}{\numberline {5}Evaluation}{25}
+\contentsline {chapter}{Appendices}{26}
+\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{27}
+\contentsline {chapter}{\numberline {B}Code samples}{28}
+\contentsline {section}{\numberline {2.1}Random Number Generator}{28}
+\contentsline {chapter}{Annotated Bibliography}{31}
