@@ -1,18 +1,7 @@
 %\addcontentsline{toc}{chapter}{Development Process}
 \chapter{Design}
 The following section will cover the final design of the project, initial design can be seen in the Design Specification. The original design was completed when only a small amount of research had been completed and not all avenues of interest had been explored. Due to this good comparisons can be made between the two making it easy to highlight the areas of the design where large changes were made. The design covered is the cumulative output of the Design by Feature element in the process. This means some changes were still made during the implementation phase but those will be discussed in the relevant section.
- 
-You should concentrate on the more important aspects of the design. It is essential that an overview is presented before going into detail. As well as describing the design adopted it must also explain what other designs were considered and why they were rejected.
-
-The design should describe what you expected to do, and might also explain areas that you had to revise after some investigation.
-
-Typically, for an object-oriented design, the discussion will focus on the choice of objects and classes and the allocation of methods to classes. The use made of reusable components should be described and their source referenced. Particularly important decisions concerning data structures usually affect the architecture of a system and so should be described here.
-
-How much material you include on detailed design and implementation will depend very much on the nature of the project. It should not be padded out. Think about the significant aspects of your system. For example, describe the design of the user interface if it is a critical aspect of your system, or provide detail about methods and data structures that are not trivial. Do not spend time on long lists of trivial items and repetitive descriptions. If in doubt about what is appropriate, speak to your supervisor.
- 
-You should also identify any support tools that you used. You should discuss your choice of implementation tools - programming language, compilers, database management system, program development environment, etc.
-
-Some example sub-sections may be as follows, but the specific sections are for you to define. 
+ \newpage
 \section{Support and Development Tools}
 \subsection{Development Environment}
 During the initial phases of development and prototyping Eclipse and the Android Development Tools plug in were used to help develop the application, this was due to the developer having experience with this platform and the code being sampled from other projects was also built within this platform. However not long after initial prototyping and tech spikes had started to take place the decision was made to swap over to Android Studio and develop from there. Most of the decision comes down to personal preference but there are definitely good justifications to swap, personal preferences included appearance and responsiveness as well as easy to use features such as inbuilt git support and intuitive interfaces. 
@@ -214,7 +203,76 @@ Pseudo code for plotting a single route and then painting it can be found in the
 	\State return $possWrite$
 
 \end{algorithmic}
-An algorithm which has been previously overlooked as it was initially assumed to be fairly simple is the file writer. After further research which resulted in the memory check algorithm it has been decided that its process should be noted due to the various ways it could be completed. Initial design should be as follows. 
-\section{Interfaces}
+An algorithm which has been previously overlooked as it was initially assumed to be fairly simple is the file writer. After further research which resulted in the memory check algorithm it has been decided that its process should be noted due to the various ways it could be completed. A further decision which has been made is to include the saving of a file into the file writer function, this way when a user initially goes to save a file the folder will always be present. Initial design should be as follows. 
+\vspace{0.3cm}
+\hrule
+\vspace{0.2cm}
+\textbf{Save File}
+\vspace{0.1cm}
+\hrule
+\vspace{0.1cm}
+\begin{algorithmic}[1]
+\State $root = get Memory$
+\State $My Directory = root/routes$
+\If{My Directory exists}
+	\State Do Nothing
+	\Else
+\State Make Dir $->My Directory$
+\EndIf
+\State New File$-> root$
 
+\State $out = Output Stream -> File$
+\State $out -> Route ->Start$
+\State $out -> Route -> End$
+\State $out -> Route -> Grading$
+\For{$Points$}
+	\State $out -> Point i$
+\EndFor
+
+\end{algorithmic}
+\section{Interfaces}
+User Interface was an area in which the developer had little to no experience, while basic GUI's had been developed before they did not truly consider a users habits and motivations. From the initial design specification to the beginning of implementation research was completed on both good design guidelines and the options provided through Android and its use of XML for layouts. 
+
+While UI was seen as a less important task than the actual underlying code a set of basic rules were set out from the start, taking influence from other applications and the Google Material Design outline. While the material design outline was not adhered to fully it provided good insight on the vision Google has for the Android platform. 
+
+
+\begin{itemize}
+	\item 1 - Make best use of white space within design, make it act as a barrier rather than having to add an actual barrier in.
+	\item 2 - Bold colours will help cause distinction between background and active UI members.
+	\item 3 - Theme should be carried throughout pages as best possible, little to no room for exceptions. 
+	\item 4 - Develop a system which supports the same experience throughout devices. XML allows for relative layouts so no fixed measurements mostly. 
+	\item 5 - Interactive elements need to be responsive, users need feedback on their actions. This can be textual or a change in colour. Noise is not practical. 
+\end{itemize}
+\newpage
+\subsection{Colour Theme}
+Colour theme was something that the developer felt was key to a successful UI, without it a good layout would go to waste. Due to this several sets of colours were chosen at the start for trial upon the full completion of the application. Intially design highlighted a yellow and purple theme as the likely choice, due to matching the universities website. However as design furthered and prototypes were developed of basic layouts, it became obvious this may not be the ideal theme. These themes were both developed internally and taken from on line resources. The following were chosen due to them being seen as palettes that would not only provide good distinction between members of the UI but provide an easy to view screen. Using many bright and clashing colours could possibly create a visually offensive UI which is something to be avoided. By using safe, strong colours a higher chance of success was predicted. 
+
+
+1.
+\includegraphics[scale=0.5]{Chapter2/colourone.png} \\
+
+2.
+\includegraphics[scale=0.5]{Chapter2/colourtwo.png} \\
+
+3.
+\includegraphics[scale=0.5]{Chapter2/colourthree.png} \\
+
+As visible from the above diagram the palettes were based on what seemed to be sequential colours as such, while no actual math was applied to come to this decision it was visually apparent that the themes were a progression of shade. However this provides the developer with a range of possibilities, with the shades being far enough away from each other, text of one colour should always be visible on another due to the lack of overlap. It is advised during development though that text of one colour be on the background of a colour at least one away. 
+
+For example, text from the middle of the first palette should only be applied to backgrounds of the two ends, while viable to put on the two connecting colours the impact of the distinct colours will be lost slightly. 
+
+\includegraphics[scale=0.5]{Chapter2/textone.png} \\
+
+\vspace{0.2cm}
+\includegraphics[scale=0.5]{Chapter2/texttwo.png} \\
+\newpage
+As can be seen in the above diagrams the principle of using five progressive colour should provide us with a theme that is not only easy on the users eye but provides us with the ability to give a good distinction between UI members and blank space. With the above three options to be tested it is likely that either 1 or 2 will be the final theme. With 3 being viable the colours seem to be bland, while it could work with the right arrangement it is suggested more effort be put into a functional theme built of 1 or 2. 
+
+A similar palette to that of 2 can be seen at outlook.com. In this design the colours are fairly similar with white acting as the background and then a colour similar to the middle acting as interactive elements. Distinction between the two can clearly be seen and as such they stand out as having a purpose, it also helps with the clear display of text while removing cluttering multiple colours may cause. In the design responsiveness is achieved through a brief colour change in the element, something that should be considered within this project. Other considerations to be made in terms of colour design is the implementation of themes for colour-blind users, however this a stretch goal and unlikely to be implemented. 
+
+Mock up screens of the application with the prospective colour schemes can be seen below, with these it is is clear to see why 1 and 2 have an advantage over 3. It should be possible in future for the user to define a theme from a set of options, not only will this help users who make frequent use of the application but it will provide a way for the colour-blind themes to be implemented without a separate application. \\
+
+\includegraphics[scale=0.7]{Chapter2/themes.png} 
+As it stands theme 1 is seen to be the most likely candidate, it provides a range of sequential yet clearly varying colours that do not look quite as unvarying as the other two options. With this visual representation it is clear to see why option 3 is unlikely, however with the use of white space it could be a viable option. Colour theme is an area that will have to be tested with the help of human users, response to a design is not something we can simulate. By completing tests on actual users not only can we plot out the decision making and adapt around it, we can get feedback on clarity, simplicity and overall operability. A fully working application that a user can easily navigate through is the prime objective of this project. 
+\newpage
 \section{Other relevant sections}
