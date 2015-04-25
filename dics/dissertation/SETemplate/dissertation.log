@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  25 APR 2015 00:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  25 APR 2015 10:36
 entering extended mode
 **dissertation.tex
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.tex
@@ -562,9 +562,6 @@ AED: lastpage setting LastPage
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter5/chapter5.aux)
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Appendix1/appendix1.aux)
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Appendix2/appendix2.aux))
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
  3579 strings out of 493921
@@ -581,7 +578,7 @@ msy10.pfb><C:/Program Files/tex/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program
 Files/tex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/tex/fonts/type1/ur
 w/times/utmr8a.pfb><C:/Program Files/tex/fonts/type1/urw/times/utmr8a.pfb><C:/P
 rogram Files/tex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (42 pages, 715862 bytes).
+Output written on dissertation.pdf (42 pages, 715860 bytes).
 PDF statistics:
  186 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
