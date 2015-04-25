@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  25 APR 2015 10:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  25 APR 2015 23:33
 entering extended mode
 **dissertation.tex
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.tex
@@ -335,18 +335,17 @@ Missing character: There is no ™ in font ptmr7t!
 ] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
-)
-\tf@toc=\write3
 
 [1
 
-] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.lof)
+])
+\tf@toc=\write3
+ [2] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.lof)
 \tf@lof=\write4
-
-[2] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.lot)
+ [3] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.lot)
 \tf@lot=\write5
 
-[3] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter1/chapter1.tex
+[4] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter1/chapter1.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -358,7 +357,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 
 
 ] [2] [3] [4] [5] [6] [7]
-<Chapter1/process.png, id=51, 2409.0pt x 1382.16376pt>
+<Chapter1/process.png, id=54, 2409.0pt x 1382.16376pt>
 File: Chapter1/process.png Graphic file (type png)
 
 <use Chapter1/process.png>
@@ -381,7 +380,7 @@ Chapter 2.
 
 
 
-] [10] <Chapter2/screen.png, id=63, 1043.9pt x 903.375pt>
+] [10] <Chapter2/screen.png, id=66, 1043.9pt x 903.375pt>
 File: Chapter2/screen.png Graphic file (type png)
 
 <use Chapter2/screen.png>
@@ -389,7 +388,7 @@ Package pdftex.def Info: Chapter2/screen.png used on input line 30.
 (pdftex.def)             Requested size: 417.5526pt x 361.3436pt.
  [11] [12 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/screen
 .png>] [13] [14]
-<Chapter2/class.png, id=78, 2358.8125pt x 2027.575pt>
+<Chapter2/class.png, id=81, 2358.8125pt x 2027.575pt>
 File: Chapter2/class.png Graphic file (type png)
  <use Chapter2/class.png>
 Package pdftex.def Info: Chapter2/class.png used on input line 66.
@@ -405,119 +404,119 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 [15] [16 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/class.p
-ng>] [17] <Chapter2/flowo.png, id=91, 2714.14pt x 1907.125pt>
+ng>] [17] [18] <Chapter2/flowo.png, id=98, 2714.14pt x 1907.125pt>
 File: Chapter2/flowo.png Graphic file (type png)
 
 <use Chapter2/flowo.png>
-Package pdftex.def Info: Chapter2/flowo.png used on input line 88.
+Package pdftex.def Info: Chapter2/flowo.png used on input line 101.
 (pdftex.def)             Requested size: 651.40692pt x 457.71936pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-[18] [19 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/flowo.p
-ng>] [20] [21] [22] [23]
-<Chapter2/colourone.png, id=112, 567.11874pt x 85.31876pt>
+[19] [20 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/flowo.p
+ng>] [21] [22] [23] [24]
+<Chapter2/colourone.png, id=119, 567.11874pt x 85.31876pt>
 File: Chapter2/colourone.png Graphic file (type png)
 
 <use Chapter2/colourone.png>
-Package pdftex.def Info: Chapter2/colourone.png used on input line 252.
+Package pdftex.def Info: Chapter2/colourone.png used on input line 265.
 (pdftex.def)             Requested size: 283.55867pt x 42.65926pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 251--253
+Underfull \hbox (badness 10000) in paragraph at lines 264--266
 
  []
 
-<Chapter2/colourtwo.png, id=113, 567.11874pt x 85.31876pt>
+<Chapter2/colourtwo.png, id=120, 567.11874pt x 85.31876pt>
 File: Chapter2/colourtwo.png Graphic file (type png)
 
 <use Chapter2/colourtwo.png>
-Package pdftex.def Info: Chapter2/colourtwo.png used on input line 255.
+Package pdftex.def Info: Chapter2/colourtwo.png used on input line 268.
 (pdftex.def)             Requested size: 283.55867pt x 42.65926pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--256
+Underfull \hbox (badness 10000) in paragraph at lines 267--269
 
  []
 
-<Chapter2/colourthree.png, id=114, 567.11874pt x 85.31876pt>
+<Chapter2/colourthree.png, id=121, 567.11874pt x 85.31876pt>
 File: Chapter2/colourthree.png Graphic file (type png)
 
 <use Chapter2/colourthree.png>
-Package pdftex.def Info: Chapter2/colourthree.png used on input line 258.
+Package pdftex.def Info: Chapter2/colourthree.png used on input line 271.
 (pdftex.def)             Requested size: 283.55867pt x 42.65926pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
+Underfull \hbox (badness 10000) in paragraph at lines 270--272
 
  []
 
-<Chapter2/textone.png, id=115, 142.5325pt x 71.26625pt>
+<Chapter2/textone.png, id=122, 142.5325pt x 71.26625pt>
 File: Chapter2/textone.png Graphic file (type png)
 
 <use Chapter2/textone.png>
-Package pdftex.def Info: Chapter2/textone.png used on input line 264.
+Package pdftex.def Info: Chapter2/textone.png used on input line 277.
 (pdftex.def)             Requested size: 71.26607pt x 35.63303pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--265
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-<Chapter2/texttwo.png, id=116, 142.5325pt x 71.26625pt>
+<Chapter2/texttwo.png, id=123, 142.5325pt x 71.26625pt>
 File: Chapter2/texttwo.png Graphic file (type png)
 
 <use Chapter2/texttwo.png>
-Package pdftex.def Info: Chapter2/texttwo.png used on input line 267.
+Package pdftex.def Info: Chapter2/texttwo.png used on input line 280.
 (pdftex.def)             Requested size: 71.26607pt x 35.63303pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 267--268
+Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
-[24 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/colourone.pn
+[25 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/colourone.pn
 g> <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/colourtwo.png
 > <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/colourthree.pn
 g> <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/textone.png> 
 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/texttwo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-<Chapter2/themes.png, id=121, 527.0892pt x 348.3414pt>
+<Chapter2/themes.png, id=127, 527.0892pt x 348.3414pt>
 File: Chapter2/themes.png Graphic file (type png)
 
 <use Chapter2/themes.png>
-Package pdftex.def Info: Chapter2/themes.png used on input line 275.
+Package pdftex.def Info: Chapter2/themes.png used on input line 288.
 (pdftex.def)             Requested size: 368.95993pt x 243.83731pt.
 
-Overfull \hbox (11.03793pt too wide) in paragraph at lines 275--277
+Overfull \hbox (11.03793pt too wide) in paragraph at lines 288--290
 [][] \OT1/ptm/m/n/10.95 As it stands
  []
 
-[25 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/themes.png>]
-) [26]
+[26 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/themes.png>]
+[27] [28]) [29]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter3/chapter3.tex
 Chapter 3.
-) [27
+[30
 
 
 
-]
+]) [31]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter4/chapter4.tex
 Chapter 4.
 Missing character: There is no Õ in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
-) [28
+) [32
 
 
 
 ]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter5/chapter5.tex
 Chapter 5.
-) [29
+) [33
 
 
 
-] [30
+] [34
 
 
 ]
@@ -525,7 +524,7 @@ Chapter 5.
 Appendix A.
 Missing character: There is no Ð in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
-) [31
+) [35
 
 
 ]
@@ -534,11 +533,11 @@ Appendix B.
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 7.
 ("C:\Program Files\tex\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [32
+) [36
 
 
 
-] [33]) [34]
+] [37]) [38]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.bbl
 Underfull \hbox (badness 1661) in paragraph at lines 22--24
 []\OT1/ptm/m/n/10.95 Apache Soft-ware Foun-da-tion, ``Apache Li-cense, Ver-sion
@@ -547,7 +546,7 @@ Underfull \hbox (badness 1661) in paragraph at lines 22--24
 
 ) 
 AED: lastpage setting LastPage
-[35
+[39
 
 
 ] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.aux
@@ -570,7 +569,7 @@ Here is how much of TeX's memory you used:
  6698 multiletter control sequences out of 15000+200000
  27590 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,12n,45p,1279b,406s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 34i,12n,45p,1494b,406s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/tex/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/tex/f
 onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/tex/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb><C:/Program Files/tex/fonts/type1/public/amsfonts/cm/c
@@ -578,9 +577,9 @@ msy10.pfb><C:/Program Files/tex/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program
 Files/tex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/tex/fonts/type1/ur
 w/times/utmr8a.pfb><C:/Program Files/tex/fonts/type1/urw/times/utmr8a.pfb><C:/P
 rogram Files/tex/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (42 pages, 715860 bytes).
+Output written on dissertation.pdf (47 pages, 732848 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
+ 202 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
