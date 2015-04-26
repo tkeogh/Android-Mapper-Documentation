@@ -45,3 +45,43 @@ An implemented method which was not expected to be within the class is the $show
 
 \subsection{File Saving}
 Saving the plotted route to a file was a task which took much longer than expected, this was due to a misread of the documentation. Through research it was found that an Android device typically has two types of storage, internal and external. It was assumed that external storage would only be possible with an SD card in the device, this was the first mistake which caused the long delay. A second compounding error was the assumption that saving to the internal memory would make the file accessible by the user, something which is only possible in cases where a device is rooted. These compounding factors caused the process to take a length of time which simply was not expected and set the development off by around two working days. 
+
+During this time it was assumed that the file was simply not being created, however in actuality it was, it was just not available through any file browser, only through the application itself. This was due to the assumption that internal memory was accessible by anyone at any time, in reality files saved by applications to internal memory are only available to that application. Due to this, looking through the file system for the relevant folder was of no use, it was there but hidden. To combat this various techniques were researched of saving files without having to rely on an SD card as not all users would have them. 
+
+One possible method was has been mentioned before was the uploading of a route so the user could retrieve it from any web connected device. Legacy code from previous projects was used to send of a JSON that included all of the relevant file information, using the LogCat feature in the Android Studio IDE showed that the data was being sent out, so the development could continue.
+
+However, with further reference to some Stack Overflow answers to relevant questions, it was discovered that external memory is a fairly inaccurate name for what the memory actually is. In reality external memory represent one of two things, that an SD card is present or the device in question has inbuilt memory to store files. With this discovery the viablity of storing files locally vastly improved. As most devices are present with one or the other the final decision was that saving to external memory was the solution. With Google themselves trying to set the trend of removing the necessity of SD cards in Android devices it should be a smart decision for the future as well. 
+
+\subsection{Writing to File}
+Implementing this feature was simple once the problem of saving a file and accessing it were resolved. This functionality is provided by the $printFile$ method. This method takes the Route object and uses its variables to print a file that represents the route plotted. It is printed in such a way that it is compatible with the route finding side of the project. 
+
+Printing the file is done with an $outputStreamWriter$ which takes a String and prints it into the file, each time a $write$ is called the writer uses a new line. Formatting for the file is as follows
+$Start$\\
+$Destination$\\
+$Grading$\\
+$Number of Points$\\
+$Points$\\
+$Destination$\\
+$Grading$\\
+$Number of Points$\\
+$Points$\\
+The format was dictated during the development of the route finder, having the file formatted as such allows for an easy implementation of a file reader. With the first 4 lines being static throughout files and the next being decided by the fourth line the code is easy to implement. From there we can see that another destination is listed, the above file contains details a Node which connects to two others and the path between them. 
+
+Once the file is saved it is up to the user what they wish to do with it, this could range from testing of a path to full implementation to the graph. While a printed file links a Node into the graph changes still need to be made to detail the path to the Node for the user of other Nodes. This means changes need to be made to at least one other Nodes file for the Node to be fully linked. While this is not ideal there are very few ways around it, one possible way considered was to also create another file for the place the path connects to, which would contain the new path. However if multiple new paths were implemented at once, each time the new file for the Node would differ, addition by hand is not ideal but at least lets the user keep track of which files need what adding to them. 
+
+\section{Route Plotting}
+Route plotting was the key area of the application, this was due to the poor implementation of it in the original Access Aber. With so much feedback from the original version it was easy to set out a set of guidelines, some of which have been mentioned in the previous Design Specification. To begin with in the implementation a set of guidelines were set out which, if met, would cause the feature to be seen as a success for the current time line. 
+
+\begin{itemize}
+	\item 1 - Adapt the Route selector to be two selectors, a start and destination, rather than one which contains all possible routes.
+	\item 2 - Implement an extendible graph that represents the campus and building locations.
+	\item 3 - Have the route display gradings for the route, if the route is in segments display each segment in its respective colour.
+	\item 4 - Give the user the opportunity to take a route with no steps, ideally this would be done on the same graph as standard route finding if possible.
+	\item 5 - Display basic information about the route, stairs and distance ideally.  
+\end{itemize}
+
+These four criteria were seen as fairly reasonable targets, with the only worrying task being the no step feature, something which was known would be difficult. Item 5 was seen as a stretch goal as it would require the editing of the file format and as such a fairly large amount of code from some small prototypes and the route plotter.
+
+Initial development time was used to implement the route object, something fairly simple. As an object itself the Route contains the information relating to its start, destination and the points along the route. This means it contains an Array List of what are called locations in the application, labelled places on the class diagram. This implementation, though simple, provides us with all of the information needed to find a path through the graph. When a Node is analysed, what is really happening is that a file is being loaded in which creates a set of routes, each are checked for where they end. If the route ends at the right place the solution is found, if not its end place is added as a Node to be searched next. 
+
+Paths between nodes are stored as a set of locations, this is an object used repeatedly throughout the application, a 'locations' object contains a range of information, most importantly the co ordinates of the point. For route finding the rest of the information possible is irrelevant, other variables are used elsewhere. Having this one object which describes a location was a real benefit during development, it saved creating classes for what were meant to be different types of location like buildings. Due to this locations can have names and descriptions, it is just that they are not important for route finding. 

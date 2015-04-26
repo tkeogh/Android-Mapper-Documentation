@@ -37,6 +37,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Plotting of points}{33}
 \contentsline {subsection}{\numberline {3.3.2}Visualizing and Cancelling}{33}
 \contentsline {subsection}{\numberline {3.3.3}File Saving}{33}
+\contentsline {subsection}{\numberline {3.3.4}Writing to File}{34}
 \contentsline {chapter}{\numberline {4}Testing}{35}
 \contentsline {section}{\numberline {4.1}Overall Approach to Testing}{35}
 \contentsline {section}{\numberline {4.2}Automated Testing}{35}
