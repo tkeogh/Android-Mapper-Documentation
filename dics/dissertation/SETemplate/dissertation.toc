@@ -29,19 +29,26 @@
 \contentsline {section}{\numberline {2.7}Other relevant sections}{29}
 \contentsline {chapter}{\numberline {3}Implementation}{30}
 \contentsline {section}{\numberline {3.1}Location Based Help}{30}
+\contentsline {subsection}{\numberline {3.1.1}Updating Help Location}{31}
 \contentsline {section}{\numberline {3.2}Building Display}{31}
-\contentsline {chapter}{\numberline {4}Testing}{32}
-\contentsline {section}{\numberline {4.1}Overall Approach to Testing}{32}
-\contentsline {section}{\numberline {4.2}Automated Testing}{32}
-\contentsline {subsection}{\numberline {4.2.1}Unit Tests}{32}
-\contentsline {subsection}{\numberline {4.2.2}User Interface Testing}{32}
-\contentsline {subsection}{\numberline {4.2.3}Stress Testing}{32}
-\contentsline {subsection}{\numberline {4.2.4}Other types of testing}{32}
-\contentsline {section}{\numberline {4.3}Integration Testing}{32}
-\contentsline {section}{\numberline {4.4}User Testing}{32}
-\contentsline {chapter}{\numberline {5}Evaluation}{33}
-\contentsline {chapter}{Appendices}{34}
-\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{35}
-\contentsline {chapter}{\numberline {B}Code samples}{36}
-\contentsline {section}{\numberline {2.1}Random Number Generator}{36}
-\contentsline {chapter}{Annotated Bibliography}{39}
+\contentsline {subsection}{\numberline {3.2.1}Removal of Render functions}{32}
+\contentsline {subsection}{\numberline {3.2.2}Other Changes}{32}
+\contentsline {section}{\numberline {3.3}Route Plotter}{32}
+\contentsline {subsection}{\numberline {3.3.1}Plotting of points}{33}
+\contentsline {subsection}{\numberline {3.3.2}Visualizing and Cancelling}{33}
+\contentsline {subsection}{\numberline {3.3.3}File Saving}{33}
+\contentsline {chapter}{\numberline {4}Testing}{35}
+\contentsline {section}{\numberline {4.1}Overall Approach to Testing}{35}
+\contentsline {section}{\numberline {4.2}Automated Testing}{35}
+\contentsline {subsection}{\numberline {4.2.1}Unit Tests}{35}
+\contentsline {subsection}{\numberline {4.2.2}User Interface Testing}{35}
+\contentsline {subsection}{\numberline {4.2.3}Stress Testing}{35}
+\contentsline {subsection}{\numberline {4.2.4}Other types of testing}{35}
+\contentsline {section}{\numberline {4.3}Integration Testing}{35}
+\contentsline {section}{\numberline {4.4}User Testing}{35}
+\contentsline {chapter}{\numberline {5}Evaluation}{36}
+\contentsline {chapter}{Appendices}{37}
+\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{38}
+\contentsline {chapter}{\numberline {B}Code samples}{39}
+\contentsline {section}{\numberline {2.1}Random Number Generator}{39}
+\contentsline {chapter}{Annotated Bibliography}{42}
