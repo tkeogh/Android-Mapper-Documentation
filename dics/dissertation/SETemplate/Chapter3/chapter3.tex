@@ -1,10 +1,5 @@
 \chapter{Implementation}
 
-The implementation should look at any issues you encountered as you tried to implement your design. During the work, you might have found that elements of your design were unnecessary or overly complex; perhaps third party libraries were available that simplified some of the functions that you intended to implement. If things were easier in some areas, then how did you adapt your project to take account of your findings?
-
-It is more likely that things were more complex than you first thought. In particular, were there any problems or difficulties that you found during implementation that you had to address? Did such problems simply delay you or were they more significant? 
-
-You can conclude this section by reviewing the end of the implementation stage against the planned requirements.
 \section{Location Based Help}
 Throughout the design phase of the project the Help Activity is referred to as most likely to be the easiest feature to implement, when it came to implementation these assumptions were mostly correct.  Due to past work the developer was already aware of the Great Circle function, while research would have quickly led to the function itself it did save some time. 
 
@@ -96,6 +91,9 @@ Throughout development a range of issues were encountered, one which changed the
 Each file loaded in represents a Node and the connections to the other Nodes around it. By loading in the whole assets folder it would be possible to visualize the whole graph and the connections. One of the key problems encountered when implementing the graph was that once the search was complete, which will be discussed further on, routes would often double back on themselves as that's just how the Nodes were set up. After some research on how others had implemented representing real world maps as a graph it became obvious why.
 
 In road travel there are decisions to be made beyond locations, routes are not planned from location to location which is what was currently being done. Junctions have to be considered when implementing a representation of the real world, these became known as 'Points of maximum traversal' throughout development. These points were where a majority of paths would have to pass through, implementing them stopped the double back issue. Campus mostly consists of some key roads, mainly the one which contains IBERS, Edward Llyd and the entrance to the Llandinam building. With this in mind there weren't too many junctions which had to be implemented, the two key junctions of travel are the area around the Students Union which links to both Hugh Owen the Union and further on most accommodation as well as the junction at the bottom of the hill, a point which most routes pass through. This connects to the row of buildings where most lectures take place as well as the sport facilities and the National Library. The issue is represented below.
+
+\subsection{Step Free Graph}
+Implementing the step free graph was a fairly simple implementation in its current version, though it is an area that could do with improvement. Currently upon a user asking to find a route they are asked if they would like their route to be step free, if so the same activity is loaded but the route finder logs that the user wants a step free route. By doing this the user has essentially set which graph will be used. Currently the step free and standard graph are completely separate, contained within two folders nested in the assets folder. During searching the algorithm uses a keyword passed in to determine the folder files are being fetched from. This applies to the expandable list views in the route choosing activity as well. In future it would be beneficial to have one consolidated graph, including full route information and different routes between the same points allowing for path finding with variables.  
 \newpage
 \subsection{Search Algorithm}
 
@@ -107,3 +105,36 @@ In development this was the first issue to be fixed, currently the algorithm fin
 
 \subsection{Painting the Path}
 Painting the path was an area were little changed from the planned design, it is near identical to the imagined solution. To paint the path a Route object and the used Map object are taken as parameters, a loop is completed through the point along a route, a line is painted between the two points by turning them into $LatLng$ objects which are used when painting a poly line on a Map object. To accommodate the grading feature the line is painted in its respective grading using the $parseColour$ function provided. This continues until the last point where the function stops to prevent crashing. While simple no improvements could be thought of regarding the method, some visual improvements were considered including a fading of colour between segments however a solution could not be found. 
+
+\section{UI Design}
+
+\subsection{Map}
+
+Implementing the map feature was a fairly easy process, once the relative keys were set up and the correct package approved in the API console access to the maps was easy. One major decision throughout the process was the type of map that would be appropriate in each activity. Throughout the application the map differs based on what the user is doing, if they are trying to find a building the map gives an abstract representation as it is all that is really needed. If a user is route finding then a photographic representation is give. This can be changed in future and is another possible area for user testing. 
+
+\subsection{Relative Design}
+Designing in such a way that an activity adapts to its screen was a task that was incredibly time consuming compared to the expected. This is put down to the fact that the developer had little experience with XML and how to use it to be most effective. Despite this Android Studio provided a range of features which provided great assistance causing a quicker rate of development in the closing stages of the project.
+
+One of the main problems was finding a menu layout which could be made to be adaptive to any screen, it was decided that a grid layout was a good option as no matter what we should be able to split a screen into the four possible functions. Early on research was done into the $GridLayout$ however it required API level 14, it was felt the application could be developed to a lower point than this. Due to this a way had to be developed to have the grid work.
+
+This was achieved through the use of fake views, these were view objects with no height of width on the screen, by including these it was possible to align buttons around them. From there setting buttons to fill their possible space was easy. Further problems arose with using white space around the buttons, something set out in the Design section. With issues in padding and margins not working, for still unidentified reasons it was necessary to resort to the graphical editor provided. With this the changes were made in minutes, while learning what can be done with  XML it was also important to make best use of the tools available as the feature was closing in on taking too long for the benefit it would provide. A representation of fake views can be seen below. 
+
+Custom buttons were one of the least complicated features within the application, the facilities provided by Android were far from perfect, with some researching it was noticed that the best solution would just be custom buttons. In this case the application makes use of an adapted on line resource, with the base code being taken from the site and edited to fulfil the developers needs. 
+
+From there the screens are fairly simple, buttons are set at the bottom of maps and maps fill the screen unless the device used is very large. With some testing already done on various screen sizes it is fair to say an adaptive design has been achieved. UI implementation was by far the most underestimated task throughout the project design, at times it set the project far behind schedule. 
+\section{Conclusion}
+To conclude the current achievements will be referenced to the functional requirements (FR) set out in the requirements specification section 4.1.2 in this document. Moving through the FR's it is possible to see most of the requirements have been met, with some missing but other alternative implemented. In the list set out the first requirement is the Route finding function, further detail provided specifies the use of colour coded routes. This has all been achieved while maintaining a high level of extendibility including menu portions and the graph itself, this can be considered a strong success. One are for improvement however would be the improvement of displaying information along a route. 
+
+FR2 was a location based help service, that gave the user a person who could possibly help them. While this has been met it is by far the functionality which has the most room for improvement. While implemented to what has been stated it is felt to still be fairly underwhelming compared to the feature it could be. An area where future work should be heavily considered.
+
+FR 3 was the ability for a user to display buildings, filtering the type. Another are which can be considered a success, partly down to the simplicity of the functionality. It is further highlighted in the specification that the locations should be loaded from an easily update able file, another implementation. From there further modifications were made, including information on the buildings department requested from the previous feedback form and custom markers, small but adds some difference to the application. 
+
+FR 4 was to implement a route plotter for the user, including the grading of the route. Another feature fully implemented, not only can a user plot a route but they can visualize what it will look like in the route finder as well as log the steps on the route and have the distance logged for them. A file is also output for the user to do with as they wish, with the file being fully compatible with the route finder. Another functional requirement fully met, possibly exceeding initial expectations.
+
+FR5 was a feature which was possibly lost along the way of development due to varying issues. Mainly the lack of support for Welsh within Android. Due to this the welsh locale would have to be set programatically, an area which seems to cause issues for any who have done it previously. Due to this a test feature has been implemented, this sets the locale to French but the strings file used actually uses a Welsh translation. While a hack like implementation, it is still functional and is a proof of concept if Welsh locale is added.
+
+A functional requirement which maybe should have been included is a good UI design, while referenced throughout it is never seen as key, which it is now seen as after development. In the applications early development, its use was hindered by poor layout, design and flow. While this has changed considerably the memory of how badly the design effected user experience made the effort in including what is reasoned to be solid design worth it.
+
+Overall the project is considered a success, with all functionalities being mostly met, some exceeding expectations while one or two needing more work to be the fully finished product. For the time line given the developer is satisfied with the achievement. 
+
+ 
