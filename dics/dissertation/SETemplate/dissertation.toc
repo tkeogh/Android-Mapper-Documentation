@@ -6,50 +6,126 @@
 \contentsline {subsection}{\numberline {1.2.1}Breakdown of Requirements}{4}
 \contentsline {subsubsection}{\numberline {1.2.1.1}Route Finding}{4}
 \contentsline {subsubsection}{\numberline {1.2.1.2}Route Plotting}{5}
-\contentsline {subsubsection}{\numberline {1.2.1.3}Building Display}{5}
+\contentsline {subsubsection}{\numberline {1.2.1.3}Building Display}{6}
 \contentsline {subsubsection}{\numberline {1.2.1.4}Location Based Help}{6}
-\contentsline {subsubsection}{\numberline {1.2.1.5}UI Design}{6}
-\contentsline {subsection}{\numberline {1.2.2}Itemized Requirements}{7}
-\contentsline {section}{\numberline {1.3}Process}{7}
-\contentsline {chapter}{\numberline {2}Design}{9}
-\contentsline {section}{\numberline {2.1}Support and Development Tools}{10}
-\contentsline {subsection}{\numberline {2.1.1}Development Environment}{10}
-\contentsline {subsection}{\numberline {2.1.2}Version Control}{11}
-\contentsline {section}{\numberline {2.2}Overall Architecture}{12}
-\contentsline {subsection}{\numberline {2.2.1}Class Diagram and Justification}{13}
-\contentsline {subsubsection}{\numberline {2.2.1.1}Justification}{13}
-\contentsline {section}{\numberline {2.3}Application Flow}{17}
-\contentsline {subsection}{\numberline {2.3.1}Overall Justification}{17}
-\contentsline {section}{\numberline {2.4}Sequence Diagrams}{21}
-\contentsline {section}{\numberline {2.5}Major Algorithms}{21}
-\contentsline {section}{\numberline {2.6}Interfaces}{24}
-\contentsline {subsection}{\numberline {2.6.1}Colour Theme}{25}
-\contentsline {subsection}{\numberline {2.6.2}User location}{27}
-\contentsline {subsection}{\numberline {2.6.3}Screen Designs}{27}
-\contentsline {section}{\numberline {2.7}Other relevant sections}{29}
-\contentsline {chapter}{\numberline {3}Implementation}{30}
-\contentsline {section}{\numberline {3.1}Location Based Help}{30}
-\contentsline {subsection}{\numberline {3.1.1}Updating Help Location}{31}
-\contentsline {section}{\numberline {3.2}Building Display}{31}
-\contentsline {subsection}{\numberline {3.2.1}Removal of Render functions}{32}
-\contentsline {subsection}{\numberline {3.2.2}Other Changes}{32}
-\contentsline {section}{\numberline {3.3}Route Plotter}{32}
-\contentsline {subsection}{\numberline {3.3.1}Plotting of points}{33}
-\contentsline {subsection}{\numberline {3.3.2}Visualizing and Cancelling}{33}
-\contentsline {subsection}{\numberline {3.3.3}File Saving}{33}
-\contentsline {subsection}{\numberline {3.3.4}Writing to File}{34}
-\contentsline {chapter}{\numberline {4}Testing}{35}
-\contentsline {section}{\numberline {4.1}Overall Approach to Testing}{35}
-\contentsline {section}{\numberline {4.2}Automated Testing}{35}
-\contentsline {subsection}{\numberline {4.2.1}Unit Tests}{35}
-\contentsline {subsection}{\numberline {4.2.2}User Interface Testing}{35}
-\contentsline {subsection}{\numberline {4.2.3}Stress Testing}{35}
-\contentsline {subsection}{\numberline {4.2.4}Other types of testing}{35}
-\contentsline {section}{\numberline {4.3}Integration Testing}{35}
-\contentsline {section}{\numberline {4.4}User Testing}{35}
-\contentsline {chapter}{\numberline {5}Evaluation}{36}
-\contentsline {chapter}{Appendices}{37}
-\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{38}
-\contentsline {chapter}{\numberline {B}Code samples}{39}
-\contentsline {section}{\numberline {2.1}Random Number Generator}{39}
-\contentsline {chapter}{Annotated Bibliography}{42}
+\contentsline {subsubsection}{\numberline {1.2.1.5}UI Design}{7}
+\contentsline {subsection}{\numberline {1.2.2}Itemized Requirements}{8}
+\contentsline {section}{\numberline {1.3}Process}{8}
+\contentsline {chapter}{\numberline {2}Design}{10}
+\contentsline {section}{\numberline {2.1}Support and Development Tools}{11}
+\contentsline {subsection}{\numberline {2.1.1}Development Environment}{11}
+\contentsline {subsection}{\numberline {2.1.2}Version Control}{12}
+\contentsline {section}{\numberline {2.2}Overall Architecture}{13}
+\contentsline {subsection}{\numberline {2.2.1}Class Diagram and Justification}{15}
+\contentsline {subsubsection}{\numberline {2.2.1.1}Justification}{15}
+\contentsline {section}{\numberline {2.3}Application Flow}{20}
+\contentsline {subsection}{\numberline {2.3.1}Overall Justification}{20}
+\contentsline {section}{\numberline {2.4}Sequence Diagrams}{24}
+\contentsline {section}{\numberline {2.5}Major Algorithms}{24}
+\contentsline {section}{\numberline {2.6}Interfaces}{27}
+\contentsline {subsection}{\numberline {2.6.1}Colour Theme}{28}
+\contentsline {subsection}{\numberline {2.6.2}User location}{31}
+\contentsline {subsection}{\numberline {2.6.3}Screen Designs}{31}
+\contentsline {section}{\numberline {2.7}Other relevant sections}{33}
+\contentsline {chapter}{\numberline {3}Implementation}{34}
+\contentsline {section}{\numberline {3.1}Location Based Help}{34}
+\contentsline {subsection}{\numberline {3.1.1}Updating Help Location}{35}
+\contentsline {section}{\numberline {3.2}Building Display}{35}
+\contentsline {subsection}{\numberline {3.2.1}Removal of Render functions}{36}
+\contentsline {subsection}{\numberline {3.2.2}Other Changes}{36}
+\contentsline {section}{\numberline {3.3}Route Plotter}{37}
+\contentsline {subsection}{\numberline {3.3.1}Plotting of points}{37}
+\contentsline {subsection}{\numberline {3.3.2}Visualizing and Cancelling}{37}
+\contentsline {subsection}{\numberline {3.3.3}File Saving}{38}
+\contentsline {subsection}{\numberline {3.3.4}Writing to File}{38}
+\contentsline {section}{\numberline {3.4}Route Plotting}{39}
+\contentsline {subsection}{\numberline {3.4.1}Route Object}{40}
+\contentsline {subsection}{\numberline {3.4.2}Implementing Graph}{40}
+\contentsline {subsection}{\numberline {3.4.3}Search Algorithm}{42}
+\contentsline {subsection}{\numberline {3.4.4}Painting the Path}{42}
+\contentsline {chapter}{\numberline {4}Testing}{43}
+\contentsline {section}{\numberline {4.1}Overall Approach to Testing}{44}
+\contentsline {section}{\numberline {4.2}Automated Testing}{44}
+\contentsline {subsection}{\numberline {4.2.1}Unit Tests}{44}
+\contentsline {subsection}{\numberline {4.2.2}User Interface Testing}{44}
+\contentsline {subsection}{\numberline {4.2.3}Stress Testing}{44}
+\contentsline {subsection}{\numberline {4.2.4}Other types of testing}{44}
+\contentsline {section}{\numberline {4.3}Integration Testing}{44}
+\contentsline {section}{\numberline {4.4}User Testing}{44}
+\contentsline {chapter}{\numberline {5}Evaluation}{45}
+\contentsline {chapter}{Appendices}{46}
+\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{47}
+\contentsline {chapter}{\numberline {B}Code samples}{48}
+\contentsline {section}{\numberline {2.1}Random Number Generator}{48}
+\contentsline {chapter}{\numberline {C}Requirements Specification}{51}
+\contentsline {section}{\numberline {3.1}Functionality}{51}
+\contentsline {subsection}{\numberline {3.1.1}Route Finding}{51}
+\contentsline {subsection}{\numberline {3.1.2}Route Plotting}{52}
+\contentsline {subsection}{\numberline {3.1.3}Location Based Help}{52}
+\contentsline {subsection}{\numberline {3.1.4}Building Display}{52}
+\contentsline {subsection}{\numberline {3.1.5}Multi Lingual Support}{53}
+\contentsline {section}{\numberline {3.2}Interfaces}{53}
+\contentsline {subsection}{\numberline {3.2.1}User Interface}{53}
+\contentsline {subsubsection}{\numberline {3.2.1.1}General User}{53}
+\contentsline {subsubsection}{\numberline {3.2.1.2}Staff Users}{53}
+\contentsline {subsubsection}{\numberline {3.2.1.3}Encountered User Criticisms}{54}
+\contentsline {subsection}{\numberline {3.2.2}Google Services}{54}
+\contentsline {subsection}{\numberline {3.2.3}Hardware}{54}
+\contentsline {subsection}{\numberline {3.2.4}Interfacing with itself.}{55}
+\contentsline {section}{\numberline {3.3}Performance}{55}
+\contentsline {subsection}{\numberline {3.3.1}Offline Performance}{55}
+\contentsline {subsection}{\numberline {3.3.2}Searching Algorithm}{55}
+\contentsline {subsection}{\numberline {3.3.3}Possible Problem areas.}{55}
+\contentsline {section}{\numberline {3.4}Attributes}{56}
+\contentsline {subsection}{\numberline {3.4.1}Maintainability}{56}
+\contentsline {subsection}{\numberline {3.4.2}Expandability}{56}
+\contentsline {subsubsection}{\numberline {3.4.2.1}Expanding the Graph}{57}
+\contentsline {subsubsection}{\numberline {3.4.2.2}Expanding Choices}{57}
+\contentsline {subsection}{\numberline {3.4.3}Security}{57}
+\contentsline {subsection}{\numberline {3.4.4}Design}{58}
+\contentsline {subsubsection}{\numberline {3.4.4.1}Route Design}{58}
+\contentsline {subsection}{\numberline {3.4.5}Overall User Interface}{59}
+\contentsline {section}{\numberline {3.5}Design Constraints}{59}
+\contentsline {section}{\numberline {3.6}Final Comment}{59}
+\contentsline {chapter}{\numberline {D}Design Specification}{60}
+\contentsline {section}{\numberline {4.1}Introduction}{61}
+\contentsline {subsection}{\numberline {4.1.1}Purpose of Document}{61}
+\contentsline {subsection}{\numberline {4.1.2}Scope}{61}
+\contentsline {subsection}{\numberline {4.1.3}Objectives}{61}
+\contentsline {section}{\numberline {4.2}Decomposition Description}{62}
+\contentsline {subsection}{\numberline {4.2.1}Modules within the Application}{62}
+\contentsline {subsubsection}{\numberline {4.2.1.1}Route Finder}{62}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Route Plotting}{63}
+\contentsline {subsubsection}{\numberline {4.2.1.3}Location Based Help}{64}
+\contentsline {subsubsection}{\numberline {4.2.1.4}Building Display}{64}
+\contentsline {subsubsection}{\numberline {4.2.1.5}Multi Lingual Support}{65}
+\contentsline {subsection}{\numberline {4.2.2}Design Rationale}{65}
+\contentsline {subsection}{\numberline {4.2.3}Significant Classes}{66}
+\contentsline {subsubsection}{\numberline {4.2.3.1}Menu Activity}{66}
+\contentsline {subsubsection}{\numberline {4.2.3.2}Map Activity}{66}
+\contentsline {subsubsection}{\numberline {4.2.3.3}Help Activity}{66}
+\contentsline {subsubsection}{\numberline {4.2.3.4}locations Class}{66}
+\contentsline {subsubsection}{\numberline {4.2.3.5}Route Finder Activity}{67}
+\contentsline {subsubsection}{\numberline {4.2.3.6}Route Choose Activity}{67}
+\contentsline {subsubsection}{\numberline {4.2.3.7}Route Finding Class}{67}
+\contentsline {subsection}{\numberline {4.2.4}Mapping Requirements to Class}{67}
+\contentsline {section}{\numberline {4.3}Important Algorithms}{68}
+\contentsline {subsection}{\numberline {4.3.1}Route Searching}{68}
+\contentsline {subsection}{\numberline {4.3.2}Plot Path}{68}
+\contentsline {subsection}{\numberline {4.3.3}Plot Single Route}{69}
+\contentsline {subsection}{\numberline {4.3.4}Paint Path}{69}
+\contentsline {subsection}{\numberline {4.3.5}Create Directory}{71}
+\contentsline {subsection}{\numberline {4.3.6}Other Algorithms}{71}
+\contentsline {section}{\numberline {4.4}Design Diagrams}{71}
+\contentsline {subsection}{\numberline {4.4.1}Flow Diagram}{71}
+\contentsline {subsection}{\numberline {4.4.2}Class Diagram}{73}
+\contentsline {subsubsection}{\numberline {4.4.2.1}Justification}{73}
+\contentsline {subsection}{\numberline {4.4.3}Screen Designs}{76}
+\contentsline {subsubsection}{\numberline {4.4.3.1}Menu Screen}{76}
+\contentsline {subsubsection}{\numberline {4.4.3.2}Help Screen}{77}
+\contentsline {subsubsection}{\numberline {4.4.3.3}Display Buildings}{77}
+\contentsline {subsubsection}{\numberline {4.4.3.4}Route Plotter}{78}
+\contentsline {subsubsection}{\numberline {4.4.3.5}Route Display}{79}
+\contentsline {subsubsection}{\numberline {4.4.3.6}Route Choice}{79}
+\contentsline {subsubsection}{\numberline {4.4.3.7}Design Notes}{80}
+\contentsline {chapter}{Annotated Bibliography}{81}
