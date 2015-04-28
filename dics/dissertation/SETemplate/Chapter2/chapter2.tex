@@ -27,7 +27,11 @@ An alternative to using GitHub for version control and code backup was either st
 Without version control it would be possible to completely lose track of what had changed, as well as losing the project as a whole. Storing everything locally is extremely bad practice as any amount of extenuating circumstances could lead to either the loss or damage of the computer that the information is stored on. Furthermore GitHub provided statistics on when most commits were made and exactly what was committed, this allowed for estimations on not only how long a feature would take to develop based on what time had currently passed, but how long a future feature would take based on its complexity compared to past features. This meant that during development a fairly tight schedule of development was set out and mainly adhered by.
 \section{Overall Architecture}
 Initial design for the project was very broad becoming more focused over development time. With the Design Specification it is possible to see the first properly documented steps in preparing for the development time within the project, however other initial steps were taken first to help build a design from. At the start of the project a very abstract set of diagrams were drawn up to describe the desired boundaries for the project, this was mainly as a guide for further development but aids in demonstrating the vision of the project from the start. While these were drawn up on paper the digitized version will follow, it can be seen that the diagram is essentially a flow diagram that only involves the Activities used in the Android application. No screen details are given just the links between them, this has changed significantly over development but the basic blocks can be seen here. A link can be seen between Route Plotter and Route Display, this was to represent the output from one being compatible with the other. \\
-\includegraphics[scale=0.4]{Chapter2/screen.png}
+\begin{figure}[h]
+\includegraphics[scale=0.30]{Chapter2/screen.png}
+\caption[Screen Flow]{Depiction of links between screens including some data compatibility.}
+\end{figure}
+
 \newpage
 \subsection{Class Diagram and Justification}
 The final Class Diagram represents what was thought to be the final representation before the Build Feature segment in the process, during implementation some changes were made but the class diagram is a good representation of how the program actually works. Justification of the design will follow with diagram afterwards. 
@@ -63,7 +67,8 @@ Once a user is returned to the Route Display a set of methods will be run to han
 
 
 \begin{sidewaysfigure}
-\includegraphics[scale=0.28]{Chapter2/class.png} \\
+\includegraphics[scale=0.25]{Chapter2/class.png} \\
+\caption[Class Diagram]{Final Class Diagram depicting the plan of the implemented system in UML notation}
 \end{sidewaysfigure}
 \newpage
 \section{Application Flow}
@@ -98,7 +103,8 @@ Painting the route is then fairly simple, we know which location opened another 
 Some consideration should be made to logging a users location on  the route and showing it to them, however this can be enabled through the use of a Google Maps API method called $setLocationEnabled$ which should give us the required effect. From there this can be customised to provide the user with more information than a dot. 
 
 \begin{sidewaysfigure}
-\includegraphics[scale=0.24]{Chapter2/flowo.png} \\
+\includegraphics[scale=0.22]{Chapter2/flowo.png} \\
+\caption[Flow Diagram]{Current Flow Diagram depicting the flow between screens and processes within the program}
 \end{sidewaysfigure}
 \newpage
 \section{Sequence Diagrams}
@@ -260,7 +266,7 @@ While UI was seen as a less important task than the actual underlying code a set
 \subsection{Colour Theme}
 Colour theme was something that the developer felt was key to a successful UI, without it a good layout would go to waste. Due to this several sets of colours were chosen at the start for trial upon the full completion of the application. Intially design highlighted a yellow and purple theme as the likely choice, due to matching the universities website. However as design furthered and prototypes were developed of basic layouts, it became obvious this may not be the ideal theme. These themes were both developed internally and taken from on line resources. The following were chosen due to them being seen as palettes that would not only provide good distinction between members of the UI but provide an easy to view screen. Using many bright and clashing colours could possibly create a visually offensive UI which is something to be avoided. By using safe, strong colours a higher chance of success was predicted. 
 
-
+\begin{figure}[h]
 1.
 \includegraphics[scale=0.5]{Chapter2/colourone.png} \\
 
@@ -268,24 +274,31 @@ Colour theme was something that the developer felt was key to a successful UI, w
 \includegraphics[scale=0.5]{Chapter2/colourtwo.png} \\
 
 3.
-\includegraphics[scale=0.5]{Chapter2/colourthree.png} \\
-
+\includegraphics[scale=0.5]{Chapter2/colourthree.png}
+\caption[Theme Possibilities]{Theme Possibilities that could be applied to the application}
+\end{figure}
 As visible from the above diagram the palettes were based on what seemed to be sequential colours as such, while no actual math was applied to come to this decision it was visually apparent that the themes were a progression of shade. However this provides the developer with a range of possibilities, with the shades being far enough away from each other, text of one colour should always be visible on another due to the lack of overlap. It is advised during development though that text of one colour be on the background of a colour at least one away. 
 
 For example, text from the middle of the first palette should only be applied to backgrounds of the two ends, while viable to put on the two connecting colours the impact of the distinct colours will be lost slightly. 
-
+\begin{figure}
 \includegraphics[scale=0.5]{Chapter2/textone.png} \\
 
 \vspace{0.2cm}
-\includegraphics[scale=0.5]{Chapter2/texttwo.png} \\
+\includegraphics[scale=0.5]{Chapter2/texttwo.png} 
+\caption[Button Examples]{Demonstration of coloured buttons using the possible colour schemes}
+\end{figure}
+
 \newpage
-As can be seen in the above diagrams the principle of using five progressive colour should provide us with a theme that is not only easy on the users eye but provides us with the ability to give a good distinction between UI members and blank space. With the above three options to be tested it is likely that either 1 or 2 will be the final theme. With 3 being viable the colours seem to be bland, while it could work with the right arrangement it is suggested more effort be put into a functional theme built of 1 or 2. 
+As can be seen in the Theme Possibilities above  the principle of using five progressive colour should provide us with a theme that is not only easy on the users eye but provides us with the ability to give a good distinction between UI members and blank space. With the above three options to be tested it is likely that either 1 or 2 will be the final theme. With 3 being viable the colours seem to be bland, while it could work with the right arrangement it is suggested more effort be put into a functional theme built of 1 or 2. 
 
 A similar palette to that of 2 can be seen at outlook.com. In this design the colours are fairly similar with white acting as the background and then a colour similar to the middle acting as interactive elements. Distinction between the two can clearly be seen and as such they stand out as having a purpose, it also helps with the clear display of text while removing cluttering multiple colours may cause. In the design responsiveness is achieved through a brief colour change in the element, something that should be considered within this project. Other considerations to be made in terms of colour design is the implementation of themes for colour-blind users, however this a stretch goal and unlikely to be implemented. 
 
 Mock up screens of the application with the prospective colour schemes can be seen below, with these it is is clear to see why 1 and 2 have an advantage over 3. It should be possible in future for the user to define a theme from a set of options, not only will this help users who make frequent use of the application but it will provide a way for the colour-blind themes to be implemented without a separate application. \\
-
+\begin{figure}
 \includegraphics[scale=0.7]{Chapter2/themes.png} 
+\caption[Example Themes]{Example Themes demonstrated as to how they would look on the application}
+\end{figure}
+
 As it stands theme 1 is seen to be the most likely candidate, it provides a range of sequential yet clearly varying colours that do not look quite as unvarying as the other two options. With this visual representation it is clear to see why option 3 is unlikely, however with the use of white space it could be a viable option. Colour theme is an area that will have to be tested with the help of human users, response to a design is not something we can simulate. By completing tests on actual users not only can we plot out the decision making and adapt around it, we can get feedback on clarity, simplicity and overall operability. A fully working application that a user can easily navigate through is the prime objective of this project. 
 \subsection{User location}
 Display the users location to them is seen as a key element to route finding, displaying a route is only so much use if a user cannot see where they are on it. While the solution to this problem has already been discussed, some additions can be made to it. Mainly the addition of custom graphics to benefit the user. 
