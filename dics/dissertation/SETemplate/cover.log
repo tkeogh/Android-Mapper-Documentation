@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  17 APR 2015 13:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  28 APR 2015 21:53
 entering extended mode
 **cover.tex
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\cover.tex
@@ -176,15 +176,6 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 15--17
  []
 
 ! Undefined control sequence.
-l.18 \today
-            % i.e. the date of this version of the report
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
 l.20 \status
             {Draft} % Use draft until you create the release version. Then, ...
 The control sequence at the end of the top line
@@ -213,7 +204,7 @@ Missing character: There is no f in font nullfont!
 Missing character: There is no t in font nullfont!
 ! Undefined control sequence.
 l.21 \version
-             {1.0}
+             {1.1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -222,7 +213,7 @@ and I'll forget about whatever was undefined.
 
 Missing character: There is no 1 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 20--22
 []
@@ -230,7 +221,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 20--22
 
 ! Undefined control sequence.
 l.24 \supervisor
-                {Dr./Prof. My Supervisor}
+                {Dr. Myra Wilson}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -245,31 +236,23 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.24 \supervisor{D
-                  r./Prof. My Supervisor}
+                  r. Myra Wilson}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no D in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no / in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no . in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no y in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no p in font nullfont!
-Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
-Missing character: There is no v in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no W in font nullfont!
 Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no r in font nullfont!
+Missing character: There is no n in font nullfont!
 
 Overfull \hbox (20.0pt too wide) in paragraph at lines 24--25
 []
@@ -277,7 +260,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 24--25
 
 ! Undefined control sequence.
 l.27 \supervisoremail
-                     {FIXME@aber.ac.uk}
+                     {mxw@aber.ac.uk}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -291,16 +274,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 \supervisoremail{F
-                       IXME@aber.ac.uk}
+l.27 \supervisoremail{m
+                       xw@aber.ac.uk}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-Missing character: There is no F in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no X in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no E in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no x in font nullfont!
+Missing character: There is no w in font nullfont!
 Missing character: There is no @ in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no b in font nullfont!

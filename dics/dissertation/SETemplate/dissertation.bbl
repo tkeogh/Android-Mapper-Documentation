@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \providecommand{\url}[1]{#1}
 \csname url@rmstyle\endcsname
 \providecommand{\newblock}{\relax}
@@ -18,17 +18,27 @@
 \fi
 #2}}
 
-\bibitem{apache_license}
-{Apache Software Foundation}, ``{Apache License, Version 2.0},''
-  \url{http://www.apache.org/licenses/LICENSE-2.0}, 2004.
- \begin{quotation}\noindent This is my annotation. I should add in a
-  description here. \end{quotation}
+\bibitem{aa}
+{Aberystwyth University}, ``{Access Aber},''
+  \url{http://www.dcs.aber.ac.uk/~nst/accessaber/}, 2015.
+ \begin{quotation}\noindent The original Access Aber application, still fully
+  working as of reference date. Developed as the initial iteration of the
+  project with this project being considered the second. \end{quotation}
 
-\bibitem{apache_poi}
-------, ``{Apache POI - the Java API for Microsoft Documents},''
-  \url{http://poi.apache.org}, 2014.
- \begin{quotation}\noindent This is my annotation. I should add in a
-  description here. \end{quotation}
+\bibitem{astar}
+{Amit Patel}, ``{A* Information.}''
+  \url{http://theory.stanford.edu/~amitp/GameProgramming/AStarComparison.html},
+  2015.
+ \begin{quotation}\noindent Information on the benefits of A* and possible ways
+  to implement. \end{quotation}
+
+\bibitem{pf}
+------, ``{Map Representations},''
+  \url{http://theory.stanford.edu/~amitp/GameProgramming/MapRepresentations.html},
+  2015.
+ \begin{quotation}\noindent Site containing various information on pathfinding
+  and representation of road systems as graphs. Not all relevant but some
+  important information was gathered from here. \end{quotation}
 
 \bibitem{HannahsPaper}
 H.~M. Dee and D.~C. Hogg, ``Navigational strategies in behaviour modelling,''
@@ -44,6 +54,123 @@ S.~Duckworth, ``{A picture of a kitten at Hellifield Peel},''
  \begin{quotation}\noindent This is my annotation. I should add in a
   description here. \end{quotation}
 
+\bibitem{accuracy}
+{Federal Aviation Administration}, ``{FAA GPS Performance Analysis Report},''
+  \url{http://www.nstb.tc.faa.gov/reports/PAN86_0714.pdf#page=22}, 2015.
+ \begin{quotation}\noindent GPS performance analysis, contains details on how
+  accurate most GPS co ordinates recieved are. \end{quotation}
+
+\bibitem{aui}
+{GitHub User : wasabeef}, ``{Awesome Android UI package},''
+  \url{https://github.com/wasabeef/awesome-android-ui}, 2015.
+ \begin{quotation}\noindent A collection of Android UI libraries, some were
+  experimented with during development though none made it into the final
+  version. Could be essential for future work. \end{quotation}
+
+\bibitem{as}
+{Google}, ``{Android Studio},''
+  \url{http://developer.android.com/tools/studio/index.html}, 2015.
+ \begin{quotation}\noindent Home page of Android Studio the IDE used for the
+  majority of development and the official IDE of Android. \end{quotation}
+
+\bibitem{storage}
+------, ``{Data Storage in Android},''
+  \url{http://developer.android.com/guide/topics/data/data-storage.html}, 2015.
+ \begin{quotation}\noindent Details on Internal and External Storage.
+  Description of what they mean and who can access them. A useful resource in
+  solving issues through the development of file saving \end{quotation}
+
+\bibitem{adt}
+------, ``{Eclipse ADT},''
+  \url{https://developer.android.com/tools/help/adt.html}, 2015.
+ \begin{quotation}\noindent Description of ADT and install instructions.
+  Includes information regarding its deprecation and the full release of
+  Android Studio \end{quotation}
+
+\bibitem{ele}
+------, ``{Elevation API},''
+  \url{https://developers.google.com/maps/documentation/elevation/}, 2015.
+ \begin{quotation}\noindent API for the elevation service provided by Google,
+  not used in full application but could be essential for future development.
+  \end{quotation}
+
+\bibitem{directions}
+------, ``{Google Directions API},''
+  \url{https://developers.google.com/maps/documentation/directions/}, 2015.
+ \begin{quotation}\noindent API page for Googles Directions API, allows for the
+  loading of directions from any one point to another. \end{quotation}
+
+\bibitem{gm}
+------, ``{Google Maps},'' \url{http://www.google.co.uk/maps}, 2015.
+ \begin{quotation}\noindent Google Maps was used to provide the Map objects
+  within the application. It was a key reason for the success of the project.
+  \end{quotation}
+
+\bibitem{maps}
+------, ``{Google Maps Android API v2},''
+  \url{https://developers.google.com/maps/documentation/android/}, 2015.
+ \begin{quotation}\noindent Base screen for the Google Maps Android API v2.
+  Contains information relating to map gathering, manipulation and further
+  details. Large amounts of the applicaiton are based on information gathered
+  from here. \end{quotation}
+
+\bibitem{material}
+------, ``{Google Material Design Guidelines},''
+  \url{http://www.google.com/design/spec/material-design/introduction.html},
+  2015.
+ \begin{quotation}\noindent Homepage for Google's Material Design Outline,
+  discusses the ideology behind how an Android application should look and the
+  reasoning. \end{quotation}
+
+\bibitem{setlocation}
+------, ``{GoogleMap Object Documentation - setLocationEnabled},''
+  \url{http://developer.android.com/reference/com/google/android/gms/maps/GoogleMap.html#setMyLocationEnabled(boolean)},
+  2015.
+ \begin{quotation}\noindent Information on the setLocationEnabled function
+  provided within the maps API, including details on parameters and function.
+  \end{quotation}
+
+\bibitem{api}
+------, ``{Introduction to Android},''
+  \url{https://developer.android.com/guide/index.html}, 2015.
+ \begin{quotation}\noindent Home screen of the Android API. Base of all
+  development, within all details can be found on native methods used.
+  Essential to the project. \end{quotation}
+
+\bibitem{poly}
+------, ``{Poly Line information.}''
+  \url{https://developer.android.com/reference/com/google/android/gms/maps/model/Polyline.html},
+  2015.
+ \begin{quotation}\noindent Devloper page for the polyline functionality within
+  the Android API, use repeatedy through development for visualization of
+  routes. \end{quotation}
+
+\bibitem{gradle}
+{Gradle Inc}, ``{Gradle User Guide},''
+  \url{https://gradle.org/docs/current/userguide/userguide}, 2015.
+ \begin{quotation}\noindent User instructions for the use of Gradle, a build
+  tool included within Android Studio used for the project. \end{quotation}
+
+\bibitem{bfs}
+{Khan Academy}, ``{Uses and description of BFS},''
+  \url{https://www.khanacademy.org/computing/computer-science/algorithms/breadth-first-search/a/breadth-first-search-and-its-uses},
+  2015.
+ \begin{quotation}\noindent A descriptive page about BFS and its
+  implementation, describes the process in fairly simple terms before moving
+  onto more detailed discussion \end{quotation}
+
+\bibitem{out}
+{Microsoft}, ``{Outlook website},'' \url{http://www.outlook.com}, 2015.
+ \begin{quotation}\noindent Used as inspiration for one of the possible colour
+  schemes laid out in the design section. \end{quotation}
+
+\bibitem{button}
+{Mind Freaker Stuff}, ``{Custom XML for Android buttons.}''
+  \url{http://www.mindfreakerstuff.com/2012/09/50-useful-android-custom-button-style-set-1/},
+  2015.
+ \begin{quotation}\noindent Used as a base for the custom buttons included
+  within the application, good resource for future development. \end{quotation}
+
 \bibitem{MarksPaper}
 M.~Neal, J.~Feyereisl, R.~Rascun\`{a}, and X.~Wang, ``{Don't touch me, I'm
   fine: Robot autonomy using an artificial innate immune system},'' in
@@ -52,16 +179,56 @@ M.~Neal, J.~Feyereisl, R.~Rascun\`{a}, and X.~Wang, ``{Don't touch me, I'm
   349--361.
  \begin{quotation}\noindent This paper... \end{quotation}
 
+\bibitem{osm}
+{OpenStreetMap Contributors}, ``{OpenStreetMap},''
+  \url{http://www.openstreetmap.org}, 2015.
+ \begin{quotation}\noindent Open Street Map is a map service built through
+  contributions, all data is available freely and as such was considered for
+  the map service within the Application \end{quotation}
+
 \bibitem{NumericalRecipes}
 W.~Press \emph{et~al.}, \emph{{Numerical recipes in C}}.\hskip 1em plus 0.5em
   minus 0.4em\relax Cambridge University Press Cambridge, 1992, pp. 349--361.
  \begin{quotation}\noindent This is my annotation. I can add in comments that
   are in \textbf{bold} and \em{italics} and then other content. \end{quotation}
 
-\bibitem{FailBlog}
-Various, ``Fail blog,'' \url{http://www.failblog.org/}, Aug. 2011, accessed
-  August 2011.
- \begin{quotation}\noindent This is my annotation. I should add in a
-  description here. \end{quotation}
+\bibitem{mr}
+{Stack Overflow}, ``{Examples of Map representations},''
+  \url{http://stackoverflow.com/questions/177343/map-navigation-project-how-is-road-data-generally-stored-represented},
+  2015.
+ \begin{quotation}\noindent Stack Overflow post with various references to
+  material which describes implementation of graphs as a representation of
+  maps, while the implemented system was simpler it still took some ideas from
+  here. \end{quotation}
+
+\bibitem{check}
+------, ``{External Storage check code},''
+  \url{http://stackoverflow.com/questions/7616974/how-to-check-internal-and-external-storage-if-exist},
+  2015.
+ \begin{quotation}\noindent Solution for checking if external storage is
+  accessible or not, was used as a reference when drawing up plans for future
+  feautes \end{quotation}
+
+\bibitem{circlef}
+------, ``{Great Circle Distance - Java Solution},''
+  \url{http://stackoverflow.com/questions/3694380/calculating-distance-between-two-points-using-latitude-longitude-what-am-i-doi},
+  2015.
+ \begin{quotation}\noindent Solution the great circle function implemented in
+  Java. Takes elevation into consideration, something which was unused in this
+  programs implementation. \end{quotation}
+
+\bibitem{gps}
+{U.S. Government}, ``{GPS Performance Accuracy},''
+  \url{http://www.gps.gov/systems/gps/performance/accuracy/}, 2015.
+ \begin{quotation}\noindent Official information page about the GPS system and
+  its accuracy. Includes information on accuracy and the difference between
+  civilian and military GPS. \end{quotation}
+
+\bibitem{circle}
+{Wikipedia}, ``{Great Circle Distance},''
+  \url{http://en.wikipedia.org/wiki/Great-circle_distance}, 2015.
+ \begin{quotation}\noindent Overview of the Great Circle distance and some
+  algorithms that return it. Explains the use of the formula due to there being
+  no straight lines on a sphere. \end{quotation}
 
 \end{thebibliography}
