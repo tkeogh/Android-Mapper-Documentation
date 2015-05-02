@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  29 APR 2015 02:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  30 APR 2015 23:15
 entering extended mode
 **dissertation.tex
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.tex
@@ -544,36 +544,65 @@ Package pdftex.def Info: Chapter2/themes.png used on input line 298.
  [28 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/textone.png
 > <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/texttwo.png>] 
 [29 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/themes.png>]
- [30])
+ <Chapter2/crt.png, id=144, 284.5029pt x 378.213pt>
+File: Chapter2/crt.png Graphic file (type png)
+
+<use Chapter2/crt.png>
+Package pdftex.def Info: Chapter2/crt.png used on input line 325.
+(pdftex.def)             Requested size: 142.2511pt x 189.10603pt.
+ [30] <Chapter2/rd.png, id=148, 284.5029pt x 378.213pt>
+File: Chapter2/rd.png Graphic file (type png)
+
+<use Chapter2/rd.png>
+Package pdftex.def Info: Chapter2/rd.png used on input line 332.
+(pdftex.def)             Requested size: 142.2511pt x 189.10603pt.
+ [31 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/crt.png> <C
+:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/rd.png>])
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter3/chapter3.tex
 Chapter 3.
-[31
+[32
 
 
 
-] [32]
+] [33]
 Overfull \hbox (2.42519pt too wide) in paragraph at lines 28--29
 []\OT1/ptm/m/n/10.95 Throughout de-vel-op-ment other ap-pli-ca-tions and doc-u-
 men-ta-tion were re-viewed which showed
  []
 
-[33] [34] [35] [36] [37] [38] [39] [40] [41]) [42]
+[34] [35] [36] [37] [38]
+<Chapter2/beforepomt.png, id=176, 284.5029pt x 284.5029pt>
+File: Chapter2/beforepomt.png Graphic file (type png)
+
+<use Chapter2/beforepomt.png>
+Package pdftex.def Info: Chapter2/beforepomt.png used on input line 96.
+(pdftex.def)             Requested size: 142.2511pt x 142.2511pt.
+
+<Chapter2/pomt.png, id=177, 284.5029pt x 284.5029pt>
+File: Chapter2/pomt.png Graphic file (type png)
+ <use Chapter2/pomt.png>
+Package pdftex.def Info: Chapter2/pomt.png used on input line 100.
+(pdftex.def)             Requested size: 142.2511pt x 142.2511pt.
+
+[39 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/beforepomt.p
+ng>] [40 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/pomt.pn
+g>] [41] [42] [43]) [44]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter4/chapter4.tex
 Chapter 4.
 Missing character: There is no Õ in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
-) [43
+) [45
 
 
 
-] [44]
+] [46]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter5/chapter5.tex
 Chapter 5.
-[45
+[47
 
 
 
-] [46] [47]) [48] [49
+] [48] [49]) [50] [51
 
 
 ]
@@ -582,13 +611,13 @@ Appendix A.
 Missing character: There is no Ð in font ptmr7t!
 Missing character: There is no Õ in font ptmr7t!
 
-LaTeX Warning: Citation `apache_poi' on page 50 undefined on input line 11.
+LaTeX Warning: Citation `apache_poi' on page 52 undefined on input line 11.
 
 
-LaTeX Warning: Citation `apache_license' on page 50 undefined on input line 12.
+LaTeX Warning: Citation `apache_license' on page 52 undefined on input line 12.
 
 
-) [50
+) [52
 
 
 ]
@@ -597,34 +626,34 @@ Appendix B.
 LaTeX Font Info:    Try loading font information for OT1+pcr on input line 6.
 ("C:\Program Files\tex\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [51
+) [53
 
 
 
-] [52]) [53]
+] [54]) [55]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Requirements/requirement.
 tex
 Appendix C.
-[54
+[56
 
 
 
-] [55] [56] [57] [58] [59] [60] [61]) [62]
+] [57] [58] [59] [60] [61] [62] [63]) [64]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Design/design.tex
 Appendix D.
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.toc)
 \tf@toc=\write6
 
-[63
+[65
 
 
 
-] [64] [65] [66] [67] [68] [69]
+] [66] [67] [68] [69] [70] [71]
 Overfull \hbox (4.08488pt too wide) in paragraph at lines 103--112
  [] 
  []
 
-[70] [71] [72] [73] [74]
+[72] [73] [74] [75] [76]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -657,14 +686,14 @@ Overfull \hbox (4.08488pt too wide) in paragraph at lines 103--112
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
- <Design/Flow.png, id=287, 2543.5025pt x 1907.125pt>
+ <Design/Flow.png, id=300, 2543.5025pt x 1907.125pt>
 File: Design/Flow.png Graphic file (type png)
 
 <use Design/Flow.png>
 Package pdftex.def Info: Design/Flow.png used on input line 246.
 (pdftex.def)             Requested size: 610.45308pt x 457.71936pt.
- [75 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Flow.png>] <D
-esign/Class.png, id=292, 2378.8875pt x 1656.1875pt>
+ [77 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Flow.png>] <D
+esign/Class.png, id=305, 2378.8875pt x 1656.1875pt>
 File: Design/Class.png Graphic file (type png)
 
 <use Design/Class.png>
@@ -675,11 +704,11 @@ Overfull \hbox (3.19023pt too wide) in paragraph at lines 270--271
 [][] 
  []
 
-[76
+[78
 
 
-] [77] [78 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Class.p
-ng>] <Design/Menu.png, id=304, 257.0403pt x 375.804pt>
+] [79] [80 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Class.p
+ng>] <Design/Menu.png, id=316, 257.0403pt x 375.804pt>
 File: Design/Menu.png Graphic file (type png)
 
 <use Design/Menu.png>
@@ -690,8 +719,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
 
-[79 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Menu.png>]
-<Design/Help.png, id=309, 257.0403pt x 375.804pt>
+[81 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Menu.png>]
+<Design/Help.png, id=321, 257.0403pt x 375.804pt>
 File: Design/Help.png Graphic file (type png)
  <use Design/Help.png>
 Package pdftex.def Info: Design/Help.png used on input line 289.
@@ -701,8 +730,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
-[80 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Help.png>]
-<Design/Display.png, id=314, 257.0403pt x 375.804pt>
+[82 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Help.png>]
+<Design/Display.png, id=327, 257.0403pt x 375.804pt>
 File: Design/Display.png Graphic file (type png)
  <use Design/Display.png>
 Package pdftex.def Info: Design/Display.png used on input line 296.
@@ -712,8 +741,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 296--297
 
  []
 
-[81 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Display.png>]
-<Design/Plot.png, id=319, 257.0403pt x 375.804pt>
+[83 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Display.png>]
+<Design/Plot.png, id=332, 257.0403pt x 375.804pt>
 File: Design/Plot.png Graphic file (type png)
  <use Design/Plot.png>
 Package pdftex.def Info: Design/Plot.png used on input line 303.
@@ -723,8 +752,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
-[82 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Plot.png>]
-<Design/Route.png, id=325, 257.0403pt x 375.804pt>
+[84 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Plot.png>]
+<Design/Route.png, id=337, 257.0403pt x 375.804pt>
 File: Design/Route.png Graphic file (type png)
  <use Design/Route.png>
 Package pdftex.def Info: Design/Route.png used on input line 310.
@@ -734,8 +763,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
-[83 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Route.png>]
-<Design/Choose.png, id=330, 257.0403pt x 375.804pt>
+[85 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Route.png>]
+<Design/Choose.png, id=342, 257.0403pt x 375.804pt>
 File: Design/Choose.png Graphic file (type png)
  <use Design/Choose.png>
 Package pdftex.def Info: Design/Choose.png used on input line 317.
@@ -745,7 +774,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
-) [84 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Choose.png>]
+) [86 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Choose.png>]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.bbl
 Underfull \hbox (badness 3323) in paragraph at lines 22--24
 []\OT1/ptm/m/n/10.95 Aberystwyth Uni-ver-sity, ``Ac-cess Aber,'' $http : / / ww
@@ -764,7 +793,7 @@ Underfull \hbox (badness 5832) in paragraph at lines 36--39
 stanford . edu / []amitp / GameProgramming /$
  []
 
-[85
+[87
 
 
 ]
@@ -797,7 +826,7 @@ Underfull \hbox (badness 6428) in paragraph at lines 118--121
  / / www . google . com / design / spec /$
  []
 
-[86]
+[88]
 Underfull \hbox (badness 10000) in paragraph at lines 126--129
 []\OT1/ptm/m/n/10.95 ------, ``GoogleMap Ob-ject Doc-u-men-ta-tion - set-Lo-ca-
 tio-nEn-abled,'' $http :$
@@ -833,7 +862,7 @@ $\OT1/ptm/m/n/10.95 khanacademy . org / computing / computer-[]science / algori
 thms / breadth-[]rst-[]search / a /$
  []
 
-[87]
+[89]
 Underfull \hbox (badness 4096) in paragraph at lines 205--208
 []\OT1/ptm/m/n/10.95 ------, ``Ex-ter-nal Stor-age check code,'' $http : / / st
 ackoverow . com / questions / 7616974 /$
@@ -859,7 +888,7 @@ Underfull \hbox (badness 3769) in paragraph at lines 221--223
 
 ) 
 AED: lastpage setting LastPage
-[88] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.aux
+[90] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.aux
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\cover.aux)
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\declaration.aux)
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\acknowledgements.aux)
@@ -876,12 +905,15 @@ aux) (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Design/design.aux))
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 4168 strings out of 493921
- 60067 string characters out of 3150087
+ 4189 strings out of 493921
+ 60472 string characters out of 3150087
  124154 words of memory out of 3000000
- 7243 multiletter control sequences out of 15000+200000
+ 7260 multiletter control sequences out of 15000+200000
  28604 words of font info for 61 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  34i,12n,45p,1494b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -893,9 +925,9 @@ ogram Files/tex/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/tex/fonts/
 type1/urw/times/utmb8a.pfb><C:/Program Files/tex/fonts/type1/urw/times/utmr8a.p
 fb><C:/Program Files/tex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/tex
 /fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (97 pages, 2154179 bytes).
+Output written on dissertation.pdf (99 pages, 2284421 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
+ 394 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 111 words of extra memory for PDF output out of 10000 (max. 10000000)
 
