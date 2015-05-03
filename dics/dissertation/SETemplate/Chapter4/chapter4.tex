@@ -1,11 +1,5 @@
 \chapter{Testing}
 
-Detailed descriptions of every test case are definitely not what is required here. What is important is to show that you adopted a sensible strategy that was, in principle, capable of testing the system adequately even if you did not have the time to test the system fully.
-
-Have you tested your system on ’real users’? For example, if your system is supposed to solve a problem for a business, then it would be appropriate to present your approach to involve the users in the testing process and to record the results that you obtained. Depending on the level of detail, it is likely that you would put any detailed results in an appendix.
-
-The following sections indicate some areas you might include. Other sections may be more appropriate to your project. 
-
 \section{Overall Approach to Testing}
 Overall approach to testing was fairly simple, with the completion of each feature any relevant tests were either coded or completed by the developer. This included unit testing, stress testing and acceptance testing. Due to the applications aim of helping a user it was important the UI was received well. 
 \subsection{Problems Encountered}
@@ -20,7 +14,12 @@ In future projects more time will have to be dedicated to the testing of the app
 \section{Automated Testing}
 Automated testing was completed throughout the duration of the project, problems with unit testing were previously discussed however Android did have other important utilities to make use of which helped with thorough testing, especially looking for crash cases.
 \subsection{Unit Tests}
-Despite the issues encountered, unit testing was completed on the non Activity classes. This included the testing of correct behaviour from the classes to handle distance calculations and from the Objects which made up a Route Object. While the tests results would not appear within the IDE due to a known bug it was still possible to see the results in a created HTML document logging pass percentage. While it would have been beneficial to complete more Unit testing it would have required the re structuring of the program and reversal of many design decisions. While an attempt to follow a MVP pattern was made, as can be seen with the XML, Route Display Activity and Route object, in future it is advised it is stuck to more thoroughly.
+Despite the issues encountered, unit testing was completed on the non Activity classes. This included the testing of correct behaviour from the classes to handle distance calculations and from the Objects which made up a Route Object. While the tests results would not appear within the IDE due to a known bug it was still possible to see the results in a created HTML document logging pass percentage. While it would have been beneficial to complete more Unit testing it would have required the re structuring of the program and reversal of many design decisions. While an attempt to follow a MVP pattern was made, as can be seen with the XML, Route Display Activity and Route object, in future it is advised it is stuck to more thoroughly to aid with testing. 
+
+\begin{figure}[H]
+\includegraphics[scale=0.5]{Chapter4/unit.png} 
+\caption[Test Output]{Image displaying the output from running a set of tests, these are results from a single small set of tests.}
+\end{figure}
 \subsection{Stress Testing}
 Stress testing was completed with the use of 'The Monkey'. 'The Monkey' is a tool which sends a range of inputs to the application and logs the results of this at the end of its run. By doing this the application is spammed with events and any area of the application where hang ups in performance can cause crashes should be found. Through final stress testing well over 200,000 inputs have been simulated and no serious faults can be found in the application in this way. However this does not mean that faults are not there, just hard to find if they are. 
 
@@ -28,9 +27,14 @@ Throughout stress testing one issue which has been prevalent however has been th
 
 Using 'The Monkey' tool was a real benefit for the developer, as pointed out while it found no significant errors the ones it did find would have caused a real effect on the usability of the application. In future it is advised any improvement to the application be tested in such a way, the tool can be limited to the use of a single package and as such can be fine tuned to send demands to the right class. 
 
+\begin{figure}[H]
+\includegraphics[scale=0.5]{Chapter4/monkey.png} 
+\caption[Monkey Stress Test]{Image displaying the results of a Monkey run using 5000 inputs resulting in no dropped actions and no crashes on the device side.}
+\end{figure}
+
 \section{Integration Testing}
 While some integration testing was completed there is little to document due to the nature of the application. This is down to the fact that the functionality within the application are essentially singular branches accessed through the Menu Activity. As this is the structure, very little is passed between multiple functionalities, the only place this can be seen is the file from the Route Plotter being compatible with the Route Finder graph structure. So while testing was completed, the initial unit testing combined with final acceptance testing was seen as sufficient.
 \section{User Testing}
 After initial development a small user group was used to determine some UI elements, this mainly related to the use of the application for first time users and the overall visual appeal of the application. For these tests users were asked to perform a variety of tasks relating to the functional requirements, the results of these can be seen in the Appendix section. Users were also asked for their opinion on the colour scheme of the application, this was done through the use of different themes for different pages on the test application. While some of the features were a little bare at the time they were all fully functional, just not polished. 
 \section{Acceptance Testing}
-Acceptance Testing was performed by the developer of the application, a list of tests was drawn up to determine the full functionality of the application including cases which may cause crashes from poor quality code. The test tables which represent this information can be found in Appendix section x.
+Acceptance Testing was performed by the developer of the application, a list of tests was drawn up to determine the full functionality of the application including cases which may cause crashes from poor quality code. The test tables which represent this information can be found in Appendix section x. Some were completed after full development, others during development.

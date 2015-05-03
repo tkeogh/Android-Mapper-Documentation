@@ -1,0 +1,89 @@
+\chapter{Test Results}
+\section{Facility Display Test Table}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Test}                          & \textbf{Result} & \textbf{Error}          & \textbf{Change}            & \textbf{Pass} \\ \hline
+Location Displayed                     & Pass            & -                       & -                          & -             \\ \hline
+Functionality maintained on rotation   & Pass            & -                       & -                          & -             \\ \hline
+View Button responsive                 & Pass            & -                       & -                          & -             \\ \hline
+Pop Up Inflates                        & Pass            & -                       & -                          & -             \\ \hline
+Markers Shown By Type                  & Pass            & -                       & -                          & -             \\ \hline
+Name and Information Display & Pass            & -                       & -                          & -             \\ \hline
+Custom Markers Shown                   & Pass            & Always uses same marker & Modify display code & Pass          \\ \hline
+Old Markers removed on click           & Pass            & -                       & -                          & -             \\ \hline
+Map Centers on Aberystwyth             & Pass            & Too zoomed.             & Change camera settings     & Pass          \\ \hline
+Cancelling Activity returns to menu    & Pass            & -                       & -                          &               \\ \hline
+\end{tabular}
+\caption[Facility Display Tests]{Table displaying acceptance tests ran on the facility display functionality and their results.}
+\end{table}
+\newpage
+\section{Help Display Test Table}
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Test}                    & \textbf{Result} & \textbf{Error}          & \textbf{Change} & \textbf{Pass} \\ \hline
+Page Renders Text                & Pass            & -                       & -               & -             \\ \hline
+Displays Closest Person          & Pass            & -                       & -               & -             \\ \hline
+Renders Theme                    & Fail            & Old XML file being used & Add new XML     & Pass          \\ \hline
+Changes Person Chose on Location & Pass            & -                       & -               & -             \\ \hline
+\end{tabular}
+\caption[Help Display Tests]{Table displaying acceptance tests ran on the Help display functionality and their results.}
+\end{table}
+\section{Route Plotter Test Table}
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Test}                    & \textbf{Result} & \textbf{Error}        & \textbf{Change}             & \textbf{Pass} \\ \hline
+Taken to Data Entry Screen       & Pass            & -                     & -                           & -             \\ \hline
+Can enter text for start         & Pass            & -                     & -                           & -             \\ \hline
+List shown for locations         & Pass            & -                     & -                           & -             \\ \hline
+List populated from file         & Pass            & -                     & -                           & -             \\ \hline
+Cant move on without information & Fail            & No checks             & Implemented Checks          & Pass          \\ \hline
+Taken to Map screen              & Pass            & -                     & -                           & -             \\ \hline
+Step counter shown               & Pass            & -                     & -                           & -             \\ \hline
+Limit on Step Counter            & Pass            & -                     & -                           & -             \\ \hline
+Location Shown                   & Pass            & -                     & -                           & -             \\ \hline
+Dialog Shown on cancel           & Pass            & -                     & -                           & -             \\ \hline
+Cancelling route wipes data      & Pass            & -                     & -                           & -             \\ \hline
+Options Menu Inflates            & Pass            & -                     & -                           & -             \\ \hline
+Log Point creates point          & Pass            & -                     & -                           & -             \\ \hline
+Points Linked by PolyLine        & Pass            & -                     & -                           & -             \\ \hline
+Create Route creates directory   & Pass            & -                     & -                           & -             \\ \hline
+File created within directory    & Pass            & -                     & -                           & -             \\ \hline
+File format correct              & Fail            & Missing new lines     & add in new line character         & Pass          \\ \hline
+Multiple Files work              & Fail            & Directory overwritten & Perform checks for existing & Pass          \\ \hline
+File compatible with graph       & Pass            & -                     & -                           & -             \\ \hline
+Cumulative distance logged       & Pass            & -                     & -                           & -             \\ \hline
+Grading calculated               & Pass            & -                     & -                           &               \\ \hline
+\end{tabular}
+\caption[Route Plotter Tests]{Table displaying acceptance tests ran on the Route Plotter functionality and their results.}
+\end{table}
+\newpage	
+\section{Route Finder Test Table}
+
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Test}                                                                                                 & \textbf{Result} & \textbf{Error}                                                                            & \textbf{Change}                                                         & \textbf{Pass} \\ \hline
+Taken to Route Type selection                                                                                 & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+Map Loaded Correctly                                                                                          & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+User position shown                                                                                           & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+Responsive Route Button                                                                                       & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+Route Selection Screen loaded                                                                                 & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+Lists populated from files                                                                                    & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+No Step List seperate                                                                                         & Fail            & Loads from Standard Graph file                                                            & Implement new file                                                      & Pass          \\ \hline
+Lists expand on touch                                                                                         & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+Lists record use selection                                                                                    & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+Data passed back to route finder                                                                              & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+\begin{tabular}[c]{@{}l@{}}Search uses quick solution on \\ connecting starts and\\ destinations\end{tabular} & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+\begin{tabular}[c]{@{}l@{}}Deep search started on non\\ connected nodes\end{tabular}                          & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+\begin{tabular}[c]{@{}l@{}}User is stopped from having the\\ start and destination the same\end{tabular}      & Fail            & No checks done                                                                            & \begin{tabular}[c]{@{}l@{}}Implemented \\ checking\end{tabular}         & Pass          \\ \hline
+\begin{tabular}[c]{@{}l@{}}User is displayed route on\\ activity resume\end{tabular}                          & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+\begin{tabular}[c]{@{}l@{}}User is shown grading of \\ segments in the route\end{tabular}                     & Fail            & \begin{tabular}[c]{@{}l@{}}Grading shown for the opposite\\ direction route.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Swapped round\\ variable entry.\end{tabular} & Pass          \\ \hline
+\begin{tabular}[c]{@{}l@{}}Route makes use of other locations \\ to plot through.\end{tabular}                & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+\begin{tabular}[c]{@{}l@{}}Route removed on request for\\ new route\end{tabular}                              & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
+\end{tabular}
+\caption[Route Finder Tests]{Table displaying acceptance tests ran on the Route Finder functionality and their results.}
+\end{table}
