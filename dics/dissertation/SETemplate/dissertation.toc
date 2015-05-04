@@ -35,120 +35,121 @@
 \contentsline {section}{\numberline {3.3}Route Plotter}{33}
 \contentsline {subsection}{\numberline {3.3.1}Plotting of points}{33}
 \contentsline {subsection}{\numberline {3.3.2}Visualizing and Cancelling}{34}
-\contentsline {subsection}{\numberline {3.3.3}File Saving}{34}
+\contentsline {subsection}{\numberline {3.3.3}File Saving}{35}
 \contentsline {subsection}{\numberline {3.3.4}Writing to File}{35}
 \contentsline {section}{\numberline {3.4}Route Plotting}{36}
-\contentsline {subsection}{\numberline {3.4.1}Route Object}{36}
+\contentsline {subsection}{\numberline {3.4.1}Route Object}{37}
 \contentsline {subsection}{\numberline {3.4.2}Implementing Graph}{37}
-\contentsline {subsection}{\numberline {3.4.3}Step Free Graph}{38}
-\contentsline {subsection}{\numberline {3.4.4}Search Algorithm}{39}
-\contentsline {subsection}{\numberline {3.4.5}Painting the Path}{39}
-\contentsline {section}{\numberline {3.5}UI Design}{40}
-\contentsline {subsection}{\numberline {3.5.1}Map}{40}
-\contentsline {subsection}{\numberline {3.5.2}Relative Design}{40}
-\contentsline {section}{\numberline {3.6}Conclusion}{41}
-\contentsline {chapter}{\numberline {4}Testing}{43}
-\contentsline {section}{\numberline {4.1}Overall Approach to Testing}{43}
-\contentsline {subsection}{\numberline {4.1.1}Problems Encountered}{43}
-\contentsline {section}{\numberline {4.2}Automated Testing}{44}
-\contentsline {subsection}{\numberline {4.2.1}Unit Tests}{44}
-\contentsline {subsection}{\numberline {4.2.2}Stress Testing}{44}
-\contentsline {section}{\numberline {4.3}Integration Testing}{45}
-\contentsline {section}{\numberline {4.4}User Testing}{46}
-\contentsline {section}{\numberline {4.5}Acceptance Testing}{46}
-\contentsline {section}{\numberline {4.6}Testing Evaluation}{46}
-\contentsline {chapter}{\numberline {5}Evaluation}{47}
-\contentsline {section}{\numberline {5.1}Requirements and Process}{47}
-\contentsline {subsection}{\numberline {5.1.1}Requirements}{47}
-\contentsline {subsection}{\numberline {5.1.2}Process}{47}
-\contentsline {section}{\numberline {5.2}Tools and Design}{48}
-\contentsline {subsection}{\numberline {5.2.1}Tools}{48}
-\contentsline {subsection}{\numberline {5.2.2}Design}{48}
-\contentsline {section}{\numberline {5.3}Implementation and Aims}{48}
-\contentsline {subsection}{\numberline {5.3.1}Implementation}{48}
-\contentsline {subsection}{\numberline {5.3.2}Compared to Aims}{49}
-\contentsline {section}{\numberline {5.4}Future Work}{49}
-\contentsline {section}{\numberline {5.5}Self Evaluation}{50}
-\contentsline {chapter}{Appendices}{52}
-\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{53}
-\contentsline {chapter}{\numberline {B}Code samples}{55}
-\contentsline {section}{\numberline {2.1}Example Test Code}{55}
-\contentsline {section}{\numberline {2.2}Route Plotting}{55}
+\contentsline {subsection}{\numberline {3.4.3}Step Free Graph}{39}
+\contentsline {subsection}{\numberline {3.4.4}Search Algorithm}{40}
+\contentsline {subsection}{\numberline {3.4.5}Painting the Path}{40}
+\contentsline {section}{\numberline {3.5}UI Design}{41}
+\contentsline {subsection}{\numberline {3.5.1}Map}{41}
+\contentsline {subsection}{\numberline {3.5.2}Relative Design}{41}
+\contentsline {section}{\numberline {3.6}Conclusion}{42}
+\contentsline {chapter}{\numberline {4}Testing}{44}
+\contentsline {section}{\numberline {4.1}Overall Approach to Testing}{44}
+\contentsline {subsection}{\numberline {4.1.1}Problems Encountered}{44}
+\contentsline {section}{\numberline {4.2}Automated Testing}{45}
+\contentsline {subsection}{\numberline {4.2.1}Unit Tests}{45}
+\contentsline {subsection}{\numberline {4.2.2}Stress Testing}{45}
+\contentsline {section}{\numberline {4.3}Integration Testing}{46}
+\contentsline {section}{\numberline {4.4}User Testing}{47}
+\contentsline {section}{\numberline {4.5}Acceptance Testing}{47}
+\contentsline {section}{\numberline {4.6}Testing Evaluation}{47}
+\contentsline {chapter}{\numberline {5}Evaluation}{48}
+\contentsline {section}{\numberline {5.1}Requirements and Process}{48}
+\contentsline {subsection}{\numberline {5.1.1}Requirements}{48}
+\contentsline {subsection}{\numberline {5.1.2}Process}{48}
+\contentsline {section}{\numberline {5.2}Tools and Design}{49}
+\contentsline {subsection}{\numberline {5.2.1}Tools}{49}
+\contentsline {subsection}{\numberline {5.2.2}Design}{49}
+\contentsline {section}{\numberline {5.3}Implementation and Aims}{49}
+\contentsline {subsection}{\numberline {5.3.1}Implementation}{49}
+\contentsline {subsection}{\numberline {5.3.2}Compared to Aims}{50}
+\contentsline {section}{\numberline {5.4}Future Work}{50}
+\contentsline {section}{\numberline {5.5}Self Evaluation}{51}
+\contentsline {chapter}{Appendices}{53}
+\contentsline {chapter}{\numberline {A}Third-Party Code and Libraries}{54}
+\contentsline {chapter}{\numberline {B}Code samples}{56}
+\contentsline {section}{\numberline {2.1}Example Test Code}{56}
+\contentsline {section}{\numberline {2.2}Route Plotting}{56}
 \contentsline {section}{\numberline {2.3}Route Finder}{57}
 \contentsline {chapter}{\numberline {C}Test Results}{59}
 \contentsline {section}{\numberline {3.1}Facility Display Test Table}{59}
 \contentsline {section}{\numberline {3.2}Help Display Test Table}{60}
 \contentsline {section}{\numberline {3.3}Route Plotter Test Table}{60}
 \contentsline {section}{\numberline {3.4}Route Finder Test Table}{61}
-\contentsline {chapter}{\numberline {D}Requirements Specification}{62}
-\contentsline {section}{\numberline {4.1}Functionality}{62}
-\contentsline {subsection}{\numberline {4.1.1}Route Finding}{62}
-\contentsline {subsection}{\numberline {4.1.2}Route Plotting}{63}
-\contentsline {subsection}{\numberline {4.1.3}Location Based Help}{63}
-\contentsline {subsection}{\numberline {4.1.4}Building Display}{63}
-\contentsline {subsection}{\numberline {4.1.5}Multi Lingual Support}{64}
-\contentsline {section}{\numberline {4.2}Interfaces}{64}
-\contentsline {subsection}{\numberline {4.2.1}User Interface}{64}
-\contentsline {subsubsection}{\numberline {4.2.1.1}General User}{64}
-\contentsline {subsubsection}{\numberline {4.2.1.2}Staff Users}{64}
-\contentsline {subsubsection}{\numberline {4.2.1.3}Encountered User Criticisms}{65}
-\contentsline {subsection}{\numberline {4.2.2}Google Services}{65}
-\contentsline {subsection}{\numberline {4.2.3}Hardware}{65}
-\contentsline {subsection}{\numberline {4.2.4}Interfacing with itself.}{66}
-\contentsline {section}{\numberline {4.3}Performance}{66}
-\contentsline {subsection}{\numberline {4.3.1}Offline Performance}{66}
-\contentsline {subsection}{\numberline {4.3.2}Searching Algorithm}{66}
-\contentsline {subsection}{\numberline {4.3.3}Possible Problem areas.}{66}
-\contentsline {section}{\numberline {4.4}Attributes}{67}
-\contentsline {subsection}{\numberline {4.4.1}Maintainability}{67}
-\contentsline {subsection}{\numberline {4.4.2}Expandability}{67}
-\contentsline {subsubsection}{\numberline {4.4.2.1}Expanding the Graph}{68}
-\contentsline {subsubsection}{\numberline {4.4.2.2}Expanding Choices}{68}
-\contentsline {subsection}{\numberline {4.4.3}Security}{68}
-\contentsline {subsection}{\numberline {4.4.4}Design}{69}
-\contentsline {subsubsection}{\numberline {4.4.4.1}Route Design}{69}
-\contentsline {subsection}{\numberline {4.4.5}Overall User Interface}{70}
-\contentsline {section}{\numberline {4.5}Design Constraints}{70}
-\contentsline {section}{\numberline {4.6}Final Comment}{70}
-\contentsline {chapter}{\numberline {E}Design Specification}{71}
-\contentsline {section}{\numberline {5.1}Introduction}{72}
-\contentsline {subsection}{\numberline {5.1.1}Purpose of Document}{72}
-\contentsline {subsection}{\numberline {5.1.2}Scope}{72}
-\contentsline {subsection}{\numberline {5.1.3}Objectives}{72}
-\contentsline {section}{\numberline {5.2}Decomposition Description}{73}
-\contentsline {subsection}{\numberline {5.2.1}Modules within the Application}{73}
-\contentsline {subsubsection}{\numberline {5.2.1.1}Route Finder}{73}
-\contentsline {subsubsection}{\numberline {5.2.1.2}Route Plotting}{74}
-\contentsline {subsubsection}{\numberline {5.2.1.3}Location Based Help}{75}
-\contentsline {subsubsection}{\numberline {5.2.1.4}Building Display}{75}
-\contentsline {subsubsection}{\numberline {5.2.1.5}Multi Lingual Support}{76}
-\contentsline {subsection}{\numberline {5.2.2}Design Rationale}{76}
-\contentsline {subsection}{\numberline {5.2.3}Significant Classes}{77}
-\contentsline {subsubsection}{\numberline {5.2.3.1}Menu Activity}{77}
-\contentsline {subsubsection}{\numberline {5.2.3.2}Map Activity}{77}
-\contentsline {subsubsection}{\numberline {5.2.3.3}Help Activity}{77}
-\contentsline {subsubsection}{\numberline {5.2.3.4}locations Class}{77}
-\contentsline {subsubsection}{\numberline {5.2.3.5}Route Finder Activity}{78}
-\contentsline {subsubsection}{\numberline {5.2.3.6}Route Choose Activity}{78}
-\contentsline {subsubsection}{\numberline {5.2.3.7}Route Finding Class}{78}
-\contentsline {subsection}{\numberline {5.2.4}Mapping Requirements to Class}{78}
-\contentsline {section}{\numberline {5.3}Important Algorithms}{79}
-\contentsline {subsection}{\numberline {5.3.1}Route Searching}{79}
-\contentsline {subsection}{\numberline {5.3.2}Plot Path}{79}
-\contentsline {subsection}{\numberline {5.3.3}Plot Single Route}{80}
-\contentsline {subsection}{\numberline {5.3.4}Paint Path}{80}
-\contentsline {subsection}{\numberline {5.3.5}Create Directory}{82}
-\contentsline {subsection}{\numberline {5.3.6}Other Algorithms}{82}
-\contentsline {section}{\numberline {5.4}Design Diagrams}{82}
-\contentsline {subsection}{\numberline {5.4.1}Flow Diagram}{82}
-\contentsline {subsection}{\numberline {5.4.2}Class Diagram}{84}
-\contentsline {subsubsection}{\numberline {5.4.2.1}Justification}{84}
-\contentsline {subsection}{\numberline {5.4.3}Screen Designs}{87}
-\contentsline {subsubsection}{\numberline {5.4.3.1}Menu Screen}{87}
-\contentsline {subsubsection}{\numberline {5.4.3.2}Help Screen}{88}
-\contentsline {subsubsection}{\numberline {5.4.3.3}Display Buildings}{89}
-\contentsline {subsubsection}{\numberline {5.4.3.4}Route Plotter}{90}
-\contentsline {subsubsection}{\numberline {5.4.3.5}Route Display}{91}
-\contentsline {subsubsection}{\numberline {5.4.3.6}Route Choice}{92}
-\contentsline {subsubsection}{\numberline {5.4.3.7}Design Notes}{92}
-\contentsline {chapter}{Annotated Bibliography}{93}
+\contentsline {section}{\numberline {3.5}User Testing}{62}
+\contentsline {chapter}{\numberline {D}Requirements Specification}{63}
+\contentsline {section}{\numberline {4.1}Functionality}{63}
+\contentsline {subsection}{\numberline {4.1.1}Route Finding}{63}
+\contentsline {subsection}{\numberline {4.1.2}Route Plotting}{64}
+\contentsline {subsection}{\numberline {4.1.3}Location Based Help}{64}
+\contentsline {subsection}{\numberline {4.1.4}Building Display}{64}
+\contentsline {subsection}{\numberline {4.1.5}Multi Lingual Support}{65}
+\contentsline {section}{\numberline {4.2}Interfaces}{65}
+\contentsline {subsection}{\numberline {4.2.1}User Interface}{65}
+\contentsline {subsubsection}{\numberline {4.2.1.1}General User}{65}
+\contentsline {subsubsection}{\numberline {4.2.1.2}Staff Users}{65}
+\contentsline {subsubsection}{\numberline {4.2.1.3}Encountered User Criticisms}{66}
+\contentsline {subsection}{\numberline {4.2.2}Google Services}{66}
+\contentsline {subsection}{\numberline {4.2.3}Hardware}{66}
+\contentsline {subsection}{\numberline {4.2.4}Interfacing with itself.}{67}
+\contentsline {section}{\numberline {4.3}Performance}{67}
+\contentsline {subsection}{\numberline {4.3.1}Offline Performance}{67}
+\contentsline {subsection}{\numberline {4.3.2}Searching Algorithm}{67}
+\contentsline {subsection}{\numberline {4.3.3}Possible Problem areas.}{67}
+\contentsline {section}{\numberline {4.4}Attributes}{68}
+\contentsline {subsection}{\numberline {4.4.1}Maintainability}{68}
+\contentsline {subsection}{\numberline {4.4.2}Expandability}{68}
+\contentsline {subsubsection}{\numberline {4.4.2.1}Expanding the Graph}{69}
+\contentsline {subsubsection}{\numberline {4.4.2.2}Expanding Choices}{69}
+\contentsline {subsection}{\numberline {4.4.3}Security}{69}
+\contentsline {subsection}{\numberline {4.4.4}Design}{70}
+\contentsline {subsubsection}{\numberline {4.4.4.1}Route Design}{70}
+\contentsline {subsection}{\numberline {4.4.5}Overall User Interface}{71}
+\contentsline {section}{\numberline {4.5}Design Constraints}{71}
+\contentsline {section}{\numberline {4.6}Final Comment}{71}
+\contentsline {chapter}{\numberline {E}Design Specification}{72}
+\contentsline {section}{\numberline {5.1}Introduction}{73}
+\contentsline {subsection}{\numberline {5.1.1}Purpose of Document}{73}
+\contentsline {subsection}{\numberline {5.1.2}Scope}{73}
+\contentsline {subsection}{\numberline {5.1.3}Objectives}{73}
+\contentsline {section}{\numberline {5.2}Decomposition Description}{74}
+\contentsline {subsection}{\numberline {5.2.1}Modules within the Application}{74}
+\contentsline {subsubsection}{\numberline {5.2.1.1}Route Finder}{74}
+\contentsline {subsubsection}{\numberline {5.2.1.2}Route Plotting}{75}
+\contentsline {subsubsection}{\numberline {5.2.1.3}Location Based Help}{76}
+\contentsline {subsubsection}{\numberline {5.2.1.4}Building Display}{76}
+\contentsline {subsubsection}{\numberline {5.2.1.5}Multi Lingual Support}{77}
+\contentsline {subsection}{\numberline {5.2.2}Design Rationale}{77}
+\contentsline {subsection}{\numberline {5.2.3}Significant Classes}{78}
+\contentsline {subsubsection}{\numberline {5.2.3.1}Menu Activity}{78}
+\contentsline {subsubsection}{\numberline {5.2.3.2}Map Activity}{78}
+\contentsline {subsubsection}{\numberline {5.2.3.3}Help Activity}{78}
+\contentsline {subsubsection}{\numberline {5.2.3.4}locations Class}{78}
+\contentsline {subsubsection}{\numberline {5.2.3.5}Route Finder Activity}{79}
+\contentsline {subsubsection}{\numberline {5.2.3.6}Route Choose Activity}{79}
+\contentsline {subsubsection}{\numberline {5.2.3.7}Route Finding Class}{79}
+\contentsline {subsection}{\numberline {5.2.4}Mapping Requirements to Class}{79}
+\contentsline {section}{\numberline {5.3}Important Algorithms}{80}
+\contentsline {subsection}{\numberline {5.3.1}Route Searching}{80}
+\contentsline {subsection}{\numberline {5.3.2}Plot Path}{80}
+\contentsline {subsection}{\numberline {5.3.3}Plot Single Route}{81}
+\contentsline {subsection}{\numberline {5.3.4}Paint Path}{81}
+\contentsline {subsection}{\numberline {5.3.5}Create Directory}{83}
+\contentsline {subsection}{\numberline {5.3.6}Other Algorithms}{83}
+\contentsline {section}{\numberline {5.4}Design Diagrams}{83}
+\contentsline {subsection}{\numberline {5.4.1}Flow Diagram}{83}
+\contentsline {subsection}{\numberline {5.4.2}Class Diagram}{85}
+\contentsline {subsubsection}{\numberline {5.4.2.1}Justification}{85}
+\contentsline {subsection}{\numberline {5.4.3}Screen Designs}{88}
+\contentsline {subsubsection}{\numberline {5.4.3.1}Menu Screen}{88}
+\contentsline {subsubsection}{\numberline {5.4.3.2}Help Screen}{89}
+\contentsline {subsubsection}{\numberline {5.4.3.3}Display Buildings}{90}
+\contentsline {subsubsection}{\numberline {5.4.3.4}Route Plotter}{91}
+\contentsline {subsubsection}{\numberline {5.4.3.5}Route Display}{92}
+\contentsline {subsubsection}{\numberline {5.4.3.6}Route Choice}{93}
+\contentsline {subsubsection}{\numberline {5.4.3.7}Design Notes}{93}
+\contentsline {chapter}{Annotated Bibliography}{94}

@@ -11,11 +11,9 @@
 \section{Route Plotting}
 \begin{lstlisting}
     public void plotPath(ArrayList<Node> nodes) {
-
         Log.i("hit plot path", "sfd");
         int counter = 0;
         String search = end;
-
         Collections.reverse(nodes);
         for (int i = 0; i < nodes.size(); i++) {
             for (int j = 0; j < nodes.size(); j++) {

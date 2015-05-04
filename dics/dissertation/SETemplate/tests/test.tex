@@ -13,7 +13,7 @@ Name and Information Display & Pass            & -                       & -    
 Custom Markers Shown                   & Pass            & Always uses same marker & Modify display code & Pass          \\ \hline
 Old Markers removed on click           & Pass            & -                       & -                          & -             \\ \hline
 Map Centers on Aberystwyth             & Pass            & Too zoomed.             & Change camera settings     & Pass          \\ \hline
-Cancelling Activity returns to menu    & Pass            & -                       & -                          &               \\ \hline
+Cancelling Activity returns to menu    & Pass            & -                       & -                          & -              \\ \hline
 \end{tabular}
 \caption[Facility Display Tests]{Table displaying acceptance tests ran on the facility display functionality and their results.}
 \end{table}
@@ -86,4 +86,25 @@ Data passed back to route finder                                                
 \begin{tabular}[c]{@{}l@{}}Route removed on request for\\ new route\end{tabular}                              & Pass            & -                                                                                         & -                                                                       & -             \\ \hline
 \end{tabular}
 \caption[Route Finder Tests]{Table displaying acceptance tests ran on the Route Finder functionality and their results.}
+\end{table}
+\newpage	
+\section{User Testing}
+A small set of test were ran on a small number of participants, this table is a simple representation of the results. It is clear that most functionality works well with some issues maybe revolving around the multiple screens to find a route. It was discovered that for an average user they do not know where to find a route, no feedback is given on result something which needs addressing.
+
+\begin{table}[H]
+\begin{tabular}{|l|l|l|}
+\hline
+\textbf{Task}                                                                                        & \textbf{Pass \%} & \textbf{Success} \\ \hline
+Navigate to Help screen                                                                              & 100\%            & Yes              \\ \hline
+Navigate to Building Display Screen                                                                  & 100\%            & Yes              \\ \hline
+Navigate to Building Display                                                                         & 100\%            & Yes              \\ \hline
+Display Only Accomodation                                                                            & 80\%             & Yes              \\ \hline
+Display a Route from IBERS to IMAPS                                                                  & 80\%             & Yes              \\ \hline
+Plot a small two point route                                                                         & 70\%             & Mostly           \\ \hline
+Print your plotted route                                                                             & 100\%            & Yes              \\ \hline
+Cancel your plotted route                                                                            & 100\%            & Yes              \\ \hline
+Can you find the printed file                                                                        & 0\%              & Fail             \\ \hline
+\begin{tabular}[c]{@{}l@{}}Find a No step route from National Library\\ to Edward Llywd\end{tabular} & 90\%             &                 Yes \\ \hline
+\end{tabular}
+\caption[User testing results.]{User Testing results displaying percentage of users which passed a task.}
 \end{table}
