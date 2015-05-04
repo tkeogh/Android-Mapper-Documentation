@@ -100,7 +100,7 @@ The Route Chooser Activity should contain two Expandable List Views, the content
 The route finding class will take the start and destination from the Route Finder Activity and pass the finished route back to be displayed through the use of a poly line. The search will be completed using what is likely to be a Breadth First Search and will return the list of locations followed to find the final end point. It should log where each location was accessed from, this way we have a trail to follow back. The Nodes followed will be represented as a Node class which simply contains the name of the location and which file caused it to be opened.
 \subsection{Mapping Requirements to Class}
 \begin{center}
-\begin{table}
+\begin{table}[H]
 
     \begin{tabular}{ | p{7cm} | p{7cm} |}
     \hline
@@ -114,7 +114,6 @@ The route finding class will take the start and destination from the Route Finde
     \caption[FR Mapping to classes]{Table showing mapping of functional requirements and the classes which will implement them}
 \end{table}
 \end{center}
-\newpage
 \section{Important Algorithms}
 The following section will contain what are expected to be the key algorithms within the application, ranging from searching to plotting. Some may be either not needed or simplified in the final production. The algorithms are currently fairly vague but should serve as good groundwork. 
 \subsection{Route Searching}

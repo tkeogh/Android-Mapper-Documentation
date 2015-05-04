@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  3 MAY 2015 17:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.2.2)  4 MAY 2015 03:19
 entering extended mode
 **dissertation.tex
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.tex
@@ -256,7 +256,32 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 \ALG@tmplength=\skip65
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.aux
+) ("C:\Program Files\tex\tex\latex\listings\listings.sty"
+\lst@mode=\count117
+\lst@gtempboxa=\box34
+\lst@token=\toks24
+\lst@length=\count118
+\lst@currlwidth=\dimen124
+\lst@column=\count119
+\lst@pos=\count120
+\lst@lostspace=\dimen125
+\lst@width=\dimen126
+\lst@newlines=\count121
+\lst@lineno=\count122
+\lst@maxwidth=\dimen127
+
+("C:\Program Files\tex\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
+\c@lstnumber=\count123
+\lst@skipnumbers=\count124
+\lst@framebox=\box35
+)
+("C:\Program Files\tex\tex\latex\listings\listings.cfg"
+File: listings.cfg 2014/09/06 1.5e listings configuration
+))
+Package: listings 2014/09/06 1.5e (Carsten Heinz)
+
+(C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.aux
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\cover.aux)
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\declaration.aux)
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\acknowledgements.aux)
@@ -271,36 +296,36 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\tests/test.aux)
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Requirements/requirement.
 aux) (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Design/design.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
-LaTeX Font Info:    ... okay on input line 38.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 38.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 41.
 
 ("C:\Program Files\tex\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 ("C:\Program Files\tex\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count117
-\scratchdimen=\dimen124
-\scratchbox=\box34
-\nofMPsegments=\count118
-\nofMParguments=\count119
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count120
-\MPscratchDim=\dimen125
-\MPnumerator=\count121
-\makeMPintoPDFobject=\count122
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count125
+\scratchdimen=\dimen128
+\scratchbox=\box36
+\nofMPsegments=\count126
+\nofMParguments=\count127
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count128
+\MPscratchDim=\dimen129
+\MPnumerator=\count129
+\makeMPintoPDFobject=\count130
+\everyMPtoPDFconversion=\toks26
 )
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             http://www.ctan.org/tex-archive/ 
@@ -308,7 +333,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 38.
+(lastpage)             ! on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -344,6 +369,7 @@ Package lastpage Info: Please have a look at the pageslts package at
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+\c@lstlisting=\count131
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\cover.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 29.
@@ -383,19 +409,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
 
-) [1
+<thk11-barcode.png, id=8, 202.7575pt x 50.1875pt>
+File: thk11-barcode.png Graphic file (type png)
+ <use thk11-barcode.png>
+Package pdftex.def Info: thk11-barcode.png used on input line 74.
+(pdftex.def)             Requested size: 101.3785pt x 25.09367pt.
+)
+[1
 
 
-]
+ <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/thk11-barcode.png>]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\acknowledgements.tex)
 [2
 
 
-] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\abstract.tex
-Missing character: There is no â in font ptmr7t!
-Missing character: There is no € in font ptmr7t!
-Missing character: There is no ™ in font ptmr7t!
-)
+] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\abstract.tex)
 [3
 
 
@@ -405,16 +433,16 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
 
 [1
 
-] [2])
+] [2] [3])
 \tf@toc=\write3
- [3]
+ [4]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.lof)
 \tf@lof=\write4
 
-[4] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.lot)
+[5] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.lot)
 \tf@lot=\write5
 
-[5] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter1/chapter1.tex
+[6] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter1/chapter1.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
@@ -425,31 +453,41 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 [1
 
 
-] [2] [3] [4] [5] [6] [7] [8]
-<Chapter1/process.png, id=60, 2409.0pt x 1382.16376pt>
+] [2] [3] [4] [5] [6] [7]
+<Chapter1/process.png, id=62, 2409.0pt x 1382.16376pt>
 File: Chapter1/process.png Graphic file (type png)
 
 <use Chapter1/process.png>
-Package pdftex.def Info: Chapter1/process.png used on input line 82.
+Package pdftex.def Info: Chapter1/process.png used on input line 80.
 (pdftex.def)             Requested size: 433.6013pt x 248.77873pt.
 
-Overfull \hbox (15.34763pt too wide) in paragraph at lines 82--83
+Overfull \hbox (15.34763pt too wide) in paragraph at lines 80--81
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
-) [9 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter1/process.png
->] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter2/chapter2.tex
+
+Overfull \hbox (1.04489pt too wide) in paragraph at lines 78--83
+[]\OT1/ptm/m/n/10.95 Building by fea-ture meant the ap-pli-ca-tion had mod-ules
+ added to it weekly, cre-at-ing a progress
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [8] [9 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter1/process
+.png>]
+(C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter2/chapter2.tex
 Chapter 2.
 [10
 
 
 
-] [11] [12] <Chapter2/screen.png, id=76, 1043.9pt x 903.375pt>
+] [11] [12] <Chapter2/screen.png, id=81, 1043.9pt x 903.375pt>
 File: Chapter2/screen.png Graphic file (type png)
 
 <use Chapter2/screen.png>
@@ -457,7 +495,7 @@ Package pdftex.def Info: Chapter2/screen.png used on input line 31.
 (pdftex.def)             Requested size: 313.17241pt x 271.01459pt.
  [13 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/screen.png>
 ] [14] [15] [16]
-<Chapter2/class.png, id=91, 2358.8125pt x 2027.575pt>
+<Chapter2/class.png, id=96, 2358.8125pt x 2027.575pt>
 File: Chapter2/class.png Graphic file (type png)
  <use Chapter2/class.png>
 Package pdftex.def Info: Chapter2/class.png used on input line 70.
@@ -468,7 +506,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 70--71
  []
 
 [17] [18 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/class.p
-ng>] [19] [20] <Chapter2/flowo.png, id=107, 2714.14pt x 1907.125pt>
+ng>] [19] [20] <Chapter2/flowo.png, id=112, 2714.14pt x 1907.125pt>
 File: Chapter2/flowo.png Graphic file (type png)
 
 <use Chapter2/flowo.png>
@@ -486,172 +524,293 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
 [21] [22 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/flowo.p
 ng>] [23] [24] [25] [26]
-<Chapter2/colourone.png, id=128, 567.11874pt x 85.31876pt>
+<Chapter2/colourone.png, id=133, 567.11874pt x 85.31876pt>
 File: Chapter2/colourone.png Graphic file (type png)
 
 <use Chapter2/colourone.png>
-Package pdftex.def Info: Chapter2/colourone.png used on input line 271.
+Package pdftex.def Info: Chapter2/colourone.png used on input line 269.
 (pdftex.def)             Requested size: 283.55867pt x 42.65926pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 270--272
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
 
  []
 
-<Chapter2/colourtwo.png, id=129, 567.11874pt x 85.31876pt>
+<Chapter2/colourtwo.png, id=134, 567.11874pt x 85.31876pt>
 File: Chapter2/colourtwo.png Graphic file (type png)
 
 <use Chapter2/colourtwo.png>
-Package pdftex.def Info: Chapter2/colourtwo.png used on input line 274.
+Package pdftex.def Info: Chapter2/colourtwo.png used on input line 272.
 (pdftex.def)             Requested size: 283.55867pt x 42.65926pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--275
+Underfull \hbox (badness 10000) in paragraph at lines 271--273
 
  []
 
-<Chapter2/colourthree.png, id=130, 567.11874pt x 85.31876pt>
+<Chapter2/colourthree.png, id=135, 567.11874pt x 85.31876pt>
 File: Chapter2/colourthree.png Graphic file (type png)
 
 <use Chapter2/colourthree.png>
-Package pdftex.def Info: Chapter2/colourthree.png used on input line 277.
+Package pdftex.def Info: Chapter2/colourthree.png used on input line 275.
 (pdftex.def)             Requested size: 283.55867pt x 42.65926pt.
 
-<Chapter2/textone.png, id=131, 142.5325pt x 71.26625pt>
+<Chapter2/textone.png, id=136, 142.5325pt x 71.26625pt>
 File: Chapter2/textone.png Graphic file (type png)
 
 <use Chapter2/textone.png>
-Package pdftex.def Info: Chapter2/textone.png used on input line 284.
+Package pdftex.def Info: Chapter2/textone.png used on input line 282.
 (pdftex.def)             Requested size: 71.26607pt x 35.63303pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 282--283
 
  []
 
-<Chapter2/texttwo.png, id=132, 142.5325pt x 71.26625pt>
+<Chapter2/texttwo.png, id=137, 142.5325pt x 71.26625pt>
 File: Chapter2/texttwo.png Graphic file (type png)
 
 <use Chapter2/texttwo.png>
-Package pdftex.def Info: Chapter2/texttwo.png used on input line 287.
+Package pdftex.def Info: Chapter2/texttwo.png used on input line 285.
 (pdftex.def)             Requested size: 71.26607pt x 35.63303pt.
  [27 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/colourone.p
 ng> <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/colourtwo.pn
 g> <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/colourthree.p
 ng>]
-<Chapter2/themes.png, id=136, 527.0892pt x 348.3414pt>
+<Chapter2/themes.png, id=142, 527.0892pt x 348.3414pt>
 File: Chapter2/themes.png Graphic file (type png)
 
 <use Chapter2/themes.png>
-Package pdftex.def Info: Chapter2/themes.png used on input line 298.
+Package pdftex.def Info: Chapter2/themes.png used on input line 296.
 (pdftex.def)             Requested size: 368.95993pt x 243.83731pt.
  [28 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/textone.png
 > <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/texttwo.png>] 
-[29 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/themes.png>]
- <Chapter2/crt.png, id=144, 284.5029pt x 378.213pt>
+<Chapter2/crt.png, id=146, 284.5029pt x 378.213pt>
 File: Chapter2/crt.png Graphic file (type png)
 
 <use Chapter2/crt.png>
-Package pdftex.def Info: Chapter2/crt.png used on input line 325.
+Package pdftex.def Info: Chapter2/crt.png used on input line 315.
 (pdftex.def)             Requested size: 142.2511pt x 189.10603pt.
- [30] <Chapter2/rd.png, id=148, 284.5029pt x 378.213pt>
+ [29 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/themes.png>
+] <Chapter2/rd.png, id=150, 284.5029pt x 378.213pt>
 File: Chapter2/rd.png Graphic file (type png)
 
 <use Chapter2/rd.png>
-Package pdftex.def Info: Chapter2/rd.png used on input line 332.
+Package pdftex.def Info: Chapter2/rd.png used on input line 322.
 (pdftex.def)             Requested size: 142.2511pt x 189.10603pt.
- [31 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/crt.png> <C
+ [30 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/crt.png> <C
 :/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/rd.png>])
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter3/chapter3.tex
 Chapter 3.
-[32
+[31
 
 
 
-] [33]
+] [32]
 Overfull \hbox (2.42519pt too wide) in paragraph at lines 28--29
 []\OT1/ptm/m/n/10.95 Throughout de-vel-op-ment other ap-pli-ca-tions and doc-u-
 men-ta-tion were re-viewed which showed
  []
 
-[34] [35] [36] [37] [38]
-<Chapter2/beforepomt.png, id=176, 284.5029pt x 284.5029pt>
+[33] [34] [35] [36] <Chapter2/beforepomt.png, id=175, 284.5029pt x 284.5029pt>
 File: Chapter2/beforepomt.png Graphic file (type png)
 
 <use Chapter2/beforepomt.png>
-Package pdftex.def Info: Chapter2/beforepomt.png used on input line 96.
+Package pdftex.def Info: Chapter2/beforepomt.png used on input line 94.
 (pdftex.def)             Requested size: 142.2511pt x 142.2511pt.
 
-<Chapter2/pomt.png, id=177, 284.5029pt x 284.5029pt>
+<Chapter2/pomt.png, id=176, 284.5029pt x 284.5029pt>
 File: Chapter2/pomt.png Graphic file (type png)
  <use Chapter2/pomt.png>
-Package pdftex.def Info: Chapter2/pomt.png used on input line 100.
+Package pdftex.def Info: Chapter2/pomt.png used on input line 98.
 (pdftex.def)             Requested size: 142.2511pt x 142.2511pt.
 
-[39 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/beforepomt.p
-ng>] [40 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/pomt.pn
-g>] [41] [42] [43]) [44]
+[37] [38 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/beforep
+omt.png> <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter2/pomt.pn
+g>] [39] <Chapter3/fakeview.png, id=187, 248.93pt x 349.305pt>
+File: Chapter3/fakeview.png Graphic file (type png)
+
+<use Chapter3/fakeview.png>
+Package pdftex.def Info: Chapter3/fakeview.png used on input line 129.
+(pdftex.def)             Requested size: 199.14426pt x 279.44437pt.
+ [40] [41 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter3/fakevi
+ew.png>]) [42]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter4/chapter4.tex
 Chapter 4.
-[45
+[43
 
 
 
-] <Chapter4/unit.png, id=200, 676.5275pt x 423.5825pt>
+] <Chapter4/unit.png, id=201, 676.5275pt x 423.5825pt>
 File: Chapter4/unit.png Graphic file (type png)
 
 <use Chapter4/unit.png>
 Package pdftex.def Info: Chapter4/unit.png used on input line 20.
 (pdftex.def)             Requested size: 338.26291pt x 211.79073pt.
- [46 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter4/unit.png>] 
+ [44 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter4/unit.png>] 
 <Chapter4/monkey.png, id=206, 682.55pt x 496.85625pt>
 File: Chapter4/monkey.png Graphic file (type png)
 
 <use Chapter4/monkey.png>
 Package pdftex.def Info: Chapter4/monkey.png used on input line 31.
 (pdftex.def)             Requested size: 341.27417pt x 248.4275pt.
- [47 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter4/monkey.png>
-]) [48]
+ [45 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Chapter4/monkey.png>
+]) [46]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Chapter5/chapter5.tex
 Chapter 5.
-[49
+[47
 
 
 
-] [50] [51]) [52] [53
+] [48] [49] [50]) [51] [52
 
 
 ]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Appendix1/appendix1.tex
 Appendix A.
-Missing character: There is no Ð in font ptmr7t!
-Missing character: There is no Õ in font ptmr7t!
 
-LaTeX Warning: Citation `apache_poi' on page 54 undefined on input line 11.
+Overfull \hbox (74.5003pt too wide) in paragraph at lines 6--7
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 7.
+("C:\Program Files\tex\tex\latex\psnfss\omsptm.fd"
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 7.
+
+Overfull \hbox (28.50993pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
 
-LaTeX Warning: Citation `apache_license' on page 54 undefined on input line 12.
+Overfull \hbox (28.50993pt too wide) in paragraph at lines 15--16
+[][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
-
-) [54
+[53
 
 
 ]
+LaTeX Font Info:    Try loading font information for OML+ptm on input line 31.
+ ("C:\Program Files\tex\tex\latex\psnfss\omlptm.fd"
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 31.
+
+Overfull \hbox (41.65004pt too wide) in paragraph at lines 32--33
+[][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.50993pt too wide) in paragraph at lines 36--37
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (61.3602pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.50993pt too wide) in paragraph at lines 44--45
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (28.50993pt too wide) in paragraph at lines 51--52
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (61.3602pt too wide) in paragraph at lines 52--53
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (41.65004pt too wide) in paragraph at lines 58--59
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (74.5003pt too wide) in paragraph at lines 67--68
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+) [54]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Appendix2/appendix2.tex
 Appendix B.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 6.
-("C:\Program Files\tex\tex\latex\psnfss\ot1pcr.fd"
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-) [55
+
+Overfull \hbox (41.65004pt too wide) in paragraph at lines 24--25
+[][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (94.21046pt too wide) in paragraph at lines 25--26
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[55
 
 
 
-] [56]) [57]
-(C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\tests/test.tex
+] [56]
+Overfull \hbox (8.79977pt too wide) in paragraph at lines 54--57
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (8.79977pt too wide) in paragraph at lines 65--66
+[][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (35.07999pt too wide) in paragraph at lines 66--69
+[][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.36983pt too wide) in paragraph at lines 69--70
+[][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (8.79977pt too wide) in paragraph at lines 71--72
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[57]
+Overfull \hbox (2.22972pt too wide) in paragraph at lines 81--82
+[][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (81.07036pt too wide) in paragraph at lines 83--84
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (15.36983pt too wide) in paragraph at lines 85--86
+[][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (61.3602pt too wide) in paragraph at lines 87--89
+[][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (8.79977pt too wide) in paragraph at lines 95--96
+[][][][][][][][][][][][][][][][] 
+ []
+
+) [58] (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\tests/test.tex
 Appendix C.
 
 Overfull \hbox (70.12662pt too wide) in paragraph at lines 4--18
 [][] 
  []
 
-[58
+[59
 
 
 
@@ -665,35 +824,35 @@ Overfull \hbox (59.90045pt too wide) in paragraph at lines 36--61
 [][] 
  []
 
-[59]
+[60]
 Overfull \hbox (69.76588pt too wide) in paragraph at lines 67--88
 [][] 
  []
 
-) [60]
+) [61]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Requirements/requirement.
 tex
 Appendix D.
-[61
+[62
 
 
 
-] [62] [63] [64] [65] [66] [67] [68]) [69]
+] [63] [64] [65] [66] [67] [68] [69]) [70]
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Design/design.tex
 Appendix E.
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\dissertation.toc)
 \tf@toc=\write6
 
-[70
+[71
 
 
 
-] [71] [72] [73] [74] [75] [76]
+] [72] [73] [74] [75] [76] [77]
 Overfull \hbox (4.08488pt too wide) in paragraph at lines 105--114
 [][] 
  []
 
-[77] [78] [79] [80] [81] [82]
+[78] [79] [80] [81] [82]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -726,21 +885,21 @@ Overfull \hbox (4.08488pt too wide) in paragraph at lines 105--114
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-<Design/Flow.png, id=322, 2543.5025pt x 1907.125pt>
+ <Design/Flow.png, id=328, 2543.5025pt x 1907.125pt>
 File: Design/Flow.png Graphic file (type png)
- <use Design/Flow.png>
-Package pdftex.def Info: Design/Flow.png used on input line 250.
-(pdftex.def)             Requested size: 610.45308pt x 457.71936pt.
 
-[83 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Flow.png>]
-<Design/Class.png, id=327, 2378.8875pt x 1656.1875pt>
+<use Design/Flow.png>
+Package pdftex.def Info: Design/Flow.png used on input line 249.
+(pdftex.def)             Requested size: 610.45308pt x 457.71936pt.
+ [83 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Flow.png>] <D
+esign/Class.png, id=333, 2378.8875pt x 1656.1875pt>
 File: Design/Class.png Graphic file (type png)
- <use Design/Class.png>
-Package pdftex.def Info: Design/Class.png used on input line 274.
+
+<use Design/Class.png>
+Package pdftex.def Info: Design/Class.png used on input line 273.
 (pdftex.def)             Requested size: 594.72043pt x 414.04587pt.
 
-Overfull \hbox (3.19023pt too wide) in paragraph at lines 274--275
+Overfull \hbox (3.19023pt too wide) in paragraph at lines 273--274
 [][] 
  []
 
@@ -748,69 +907,69 @@ Overfull \hbox (3.19023pt too wide) in paragraph at lines 274--275
 
 
 ] [85] [86 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Class.p
-ng>] <Design/Menu.png, id=338, 257.0403pt x 375.804pt>
+ng>] <Design/Menu.png, id=344, 257.0403pt x 375.804pt>
 File: Design/Menu.png Graphic file (type png)
 
 <use Design/Menu.png>
-Package pdftex.def Info: Design/Menu.png used on input line 284.
+Package pdftex.def Info: Design/Menu.png used on input line 283.
 (pdftex.def)             Requested size: 154.22537pt x 225.48413pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 284--285
+Underfull \hbox (badness 10000) in paragraph at lines 283--284
 
  []
 
 [87 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Menu.png>]
-<Design/Help.png, id=343, 257.0403pt x 375.804pt>
+<Design/Help.png, id=350, 257.0403pt x 375.804pt>
 File: Design/Help.png Graphic file (type png)
  <use Design/Help.png>
-Package pdftex.def Info: Design/Help.png used on input line 293.
+Package pdftex.def Info: Design/Help.png used on input line 292.
 (pdftex.def)             Requested size: 154.22537pt x 225.48413pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
 [88 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Help.png>]
-<Design/Display.png, id=349, 257.0403pt x 375.804pt>
+<Design/Display.png, id=355, 257.0403pt x 375.804pt>
 File: Design/Display.png Graphic file (type png)
  <use Design/Display.png>
-Package pdftex.def Info: Design/Display.png used on input line 300.
+Package pdftex.def Info: Design/Display.png used on input line 299.
 (pdftex.def)             Requested size: 154.22537pt x 225.48413pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 300--301
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
 
  []
 
 [89 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Display.png>]
-<Design/Plot.png, id=354, 257.0403pt x 375.804pt>
+<Design/Plot.png, id=360, 257.0403pt x 375.804pt>
 File: Design/Plot.png Graphic file (type png)
  <use Design/Plot.png>
-Package pdftex.def Info: Design/Plot.png used on input line 307.
+Package pdftex.def Info: Design/Plot.png used on input line 306.
 (pdftex.def)             Requested size: 154.22537pt x 225.48413pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 307--308
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
 
  []
 
 [90 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Plot.png>]
-<Design/Route.png, id=359, 257.0403pt x 375.804pt>
+<Design/Route.png, id=365, 257.0403pt x 375.804pt>
 File: Design/Route.png Graphic file (type png)
  <use Design/Route.png>
-Package pdftex.def Info: Design/Route.png used on input line 314.
+Package pdftex.def Info: Design/Route.png used on input line 313.
 (pdftex.def)             Requested size: 154.22537pt x 225.48413pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
 [91 <C:/Users/ww3ref/Desktop/dics/dissertation/SETemplate/Design/Route.png>]
-<Design/Choose.png, id=364, 257.0403pt x 375.804pt>
+<Design/Choose.png, id=370, 257.0403pt x 375.804pt>
 File: Design/Choose.png Graphic file (type png)
  <use Design/Choose.png>
-Package pdftex.def Info: Design/Choose.png used on input line 321.
+Package pdftex.def Info: Design/Choose.png used on input line 320.
 (pdftex.def)             Requested size: 154.22537pt x 225.48413pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 321--322
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
@@ -942,30 +1101,26 @@ AED: lastpage setting LastPage
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Appendix2/appendix2.aux)
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\tests/test.aux)
 (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Requirements/requirement.
-aux) (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Design/design.aux))
-
-LaTeX Warning: There were undefined references.
-
- ) 
+aux) (C:\Users\ww3ref\Desktop\dics\dissertation\SETemplate\Design/design.aux)) 
+) 
 Here is how much of TeX's memory you used:
- 4211 strings out of 493921
- 61179 string characters out of 3150087
- 128639 words of memory out of 3000000
- 7271 multiletter control sequences out of 15000+200000
- 28604 words of font info for 61 fonts, out of 3000000 for 9000
+ 5401 strings out of 493921
+ 78838 string characters out of 3150087
+ 166408 words of memory out of 3000000
+ 8446 multiletter control sequences out of 15000+200000
+ 28089 words of font info for 59 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 34i,14n,45p,1494b,424s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/tex/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/tex/f
-onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/tex/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Program Files/tex/fonts/type1/public/amsfonts/cm/c
-msy10.pfb><C:/Program Files/tex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pr
-ogram Files/tex/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/tex/fonts/
-type1/urw/times/utmb8a.pfb><C:/Program Files/tex/fonts/type1/urw/times/utmr8a.p
-fb><C:/Program Files/tex/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/tex
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on dissertation.pdf (105 pages, 2361153 bytes).
+ 34i,14n,45p,1472b,1553s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/tex/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/tex/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/tex/fonts/type1/publi
+c/amsfonts/cm/cmr10.pfb><C:/Program Files/tex/fonts/type1/public/amsfonts/cm/cm
+sy10.pfb><C:/Program Files/tex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Pro
+gram Files/tex/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/tex/fonts/typ
+e1/urw/times/utmr8a.pfb><C:/Program Files/tex/fonts/type1/urw/times/utmr8a.pfb>
+<C:/Program Files/tex/fonts/type1/urw/times/utmri8a.pfb>
+Output written on dissertation.pdf (106 pages, 2353078 bytes).
 PDF statistics:
- 416 PDF objects out of 1000 (max. 8388607)
+ 419 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

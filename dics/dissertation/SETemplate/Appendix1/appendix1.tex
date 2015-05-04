@@ -1,12 +1,71 @@
 \chapter{Third-Party Code and Libraries}
-If you have made use of any third party code or software libraries, i.e. any code that you have not designed and written yourself, then you must include this appendix. 
+A small amount of third part code was used throughout the project.
 
-As has been said in lectures, it is acceptable and likely that you will make use of third-party code and software libraries. The key requirement is that we understand what is your original work and what work is based on that of other people. 
+Greater circle function.\cite{circlef}
+\begin{lstlisting}
+private double distance(double lat1, double lat2, double lon1, double lon2,
+        double el1, double el2) {
 
-Therefore, you need to clearly state what you have used and where the original material can be found. Also, if you have made any changes to the original versions, you must explain what you have changed. 
+    final int R = 6371; // Radius of the earth
 
-As an example, you might include a definition such as: 
+    Double latDistance = deg2rad(lat2 - lat1);
+    Double lonDistance = deg2rad(lon2 - lon1);
+    Double a = Math.sin(latDistance / 2) * Math.sin(latDistance / 2)
+            + Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2))
+            * Math.sin(lonDistance / 2) * Math.sin(lonDistance / 2);
+    Double c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+    double distance = R * c * 1000; // convert to meters
 
-Apache POI library – The project has been used to read and write Microsoft Excel files (XLS) as part of the interaction with the client’s existing system for processing data. Version 3.10-FINAL was used. The library is open source and it is available from the Apache Software Foundation 
-\cite{apache_poi}. The library is released using the Apache License 
-\cite{apache_license}. This library was used without modification. 
+    double height = el1 - el2;
+    distance = Math.pow(distance, 2) + Math.pow(height, 2);
+    return Math.sqrt(distance);
+}
+
+private double deg2rad(double deg) {
+    return (deg * Math.PI / 180.0);
+}
+\end{lstlisting}
+\newpage
+Custom Button development.\cite{button}
+\begin{lstlisting}
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+     <item android:state_pressed="true" >
+         <shape android:shape="rectangle"  >
+             <corners android:radius="3dip" />
+             <stroke android:width="1dip" android:color="#83776b" />
+             <gradient  android:angle="-90"  android:startColor="#5f4427"
+              android:endColor="#cbb59d"  />            
+         </shape>
+     </item>
+    <item android:state_focused="true">
+         <shape android:shape="rectangle"  >
+             <corners android:radius="3dip" />
+             <stroke android:width="1dip" android:color="#83776b" />
+             <solid  android:color="#92806c"/>       
+         </shape>
+     </item>  
+    <item >
+        <shape android:shape="rectangle"  >
+             <corners android:radius="3dip" />
+             <stroke android:width="1dip" android:color="#83776b" />
+             <gradient  android:angle="-90"  android:startColor="#cbb59d" 
+             android:endColor="#92806c" />            
+         </shape>
+     </item>
+</selector>$
+
+$<style name="btnStyleSandrift" parent="@android:style/Widget.Button">
+       <item name="android:textSize">15sp</item>
+       <item name="android:textStyle">bold</item>
+       <item name="android:textColor">#FFFFFF</item>
+       <item name="android:gravity">center</item>
+       <item name="android:shadowColor">#000000</item>
+       <item name="android:shadowDx">1</item>
+       <item name="android:shadowDy">1</item>
+       <item name="android:shadowRadius">0.6</item>
+       <item name="android:background">@drawable/custom_btn_sandrift</item>
+       <item name="android:padding">10dip</item>
+   </style>$
+   
+\end{lstlisting}
